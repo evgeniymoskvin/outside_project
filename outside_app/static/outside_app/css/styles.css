@@ -247,8 +247,8 @@
         display: block;
     }
 }
-
-@media (max-width: 992px) {
+@media only screen and (min-device-width: 320px)
+and (max-device-width: 992px) {
     .director-bio {
         margin-top: 50px;
     }
@@ -479,7 +479,7 @@
     right: 0;
 }
 
-@media screen and (min-device-width: 320px)
+@media only screen and (min-device-width: 320px)
 and (max-device-width: 750px) {
     .d1 {
         width: 300px;
