@@ -479,8 +479,8 @@
     right: 0;
 }
 
-@media (max-width: 750px) and (min-device-width: 320px)
-and (max-device-width: 480px) {
+@media screen and (min-device-width: 320px)
+and (max-device-width: 750px) {
     .d1 {
         width: 300px;
         height: 300px;
