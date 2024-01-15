@@ -1,0 +1,43 @@
+{% extends 'outside_app/base.html' %}
+{% load static %}
+{% block title %}
+    Главная
+{% endblock %}
+
+
+{% block content %}
+
+    <div class="container-istok">
+        <div class="content-width" style="background-color: white; position: relative;">
+            <div id="newAppointment" class="owl-carousel owl-theme" style="max-height: 280px">
+
+                <div class="item" style="max-height: 280px">
+                    <img class="d-none d-md-block" src="{% static 'outside_app/img/slideshow/1.jpg' %}">
+                    <div class="slider_container">
+						<div class="main-slider__title">
+							<div class="row align-items-center" style="height: 100%;">
+									<p style="padding-left:10%;">ИТ-интегратор<br>Госкорпорации «Росатом» </p>
+							</div>
+						</div>
+						<!--div class="main-slider__description sp2 spp1 active-slide wow animated_2 fadeInUp"></div-->
+					</div>
+                </div>
+                <div class="item" style="max-height: 280px">
+                    <img class="d-none d-md-block" src="{% static 'outside_app/img/slideshow/2.jpg' %}">
+                </div>
+                <div class="item" style="max-height: 280px">
+                    <img class="d-none d-md-block" src="{% static 'outside_app/img/slideshow/3.jpg' %}">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+    </script>
+{% endblock %}
+
+{% block js_staff %}
+
+
+{% endblock %}

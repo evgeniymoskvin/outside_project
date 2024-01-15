@@ -1,0 +1,45 @@
+{% load static %}
+<div id="header" class="header primary-color">
+    <div class="container">
+        <div class="header-inner">
+            <div class="header_logo col-2">
+                <a><img src="{% static 'outside_app/img/logo_small.png' %}" width="110" height="50"></a>
+            </div>
+            <nav class="menu">
+                <ul class="navigation-root">
+                    <li class="navigation-list-item"><a href="/">АО КИС “ИСТОК”</a></li>
+                    <li class="navigation-list-item"><a href="{% url 'company' %}">О компании</a></li>
+                    <li class="navigation-list-item"><a href="/about_company/">Направления деятельности</a></li>
+                    <li class="navigation-list-item"><a href="/about_company/">Закупки</a></li>
+                    <li class="navigation-list-item"><a href="/about_company/">Карьера</a></li>
+                </ul>
+                <div id='navigation-toggle-link' class="navigation-toggle-link float-right"
+                     onclick="clickTooglemenu()">
+                    <div class="navigation-toggle-link-icon"></div>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+<div id="dropdown" class="dropdown">
+    <ul class="dropdown-content">
+        <li class="navigation-list-item"><a href="/about_company/">АО КИС “ИСТОК”</a></li>
+        <li class="navigation-list-item"><a href="/about_company/">О компании</a></li>
+        <li class="navigation-list-item"><a href="/about_company/">Направления деятельности</a></li>
+        <li class="navigation-list-item"><a href="/about_company/">Закупки</a></li>
+        <li class="navigation-list-item"><a href="/about_company/">Карьера</a></li>
+    </ul>
+</div>
+
+<script>
+    function clickTooglemenu() {
+        console.log('сработало')
+        if ($('#dropdown').css('display') == 'block') {
+            $('#dropdown').css('display', 'none');
+        } else {
+            $('#dropdown').css('display', 'inline-block');
+        }
+    }
+</script>

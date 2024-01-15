@@ -7,51 +7,48 @@
         {% endblock %}
     </title>
     {% load static %}
-    <link rel="stylesheet" type="text/css" href="{% static 'outside_app/Bootstrap-5-5.1.3/css/bootstrap.css' %}"/>
-    <link rel="stylesheet" type="text/css" href="{% static 'outside_app/css/tasks.css' %}"/>
-    <link rel="stylesheet" type="text/css" href="{% static 'outside_app/css/outside.css' %}"/>
+    {#    <link rel="stylesheet" type="text/css" href="{% static 'outside_app/bootstrap/bootstrap.min.css' %}"/>#}
+    <link rel="stylesheet" type="text/css" href="{% static 'outside_app/Bootstrap-5-5.1.3/css/bootstrap.min.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'outside_app/css/styles.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'outside_app/OwlCarousel/owl.carousel.min.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'outside_app/OwlCarousel/owl.theme.default.css' %}"/>
+    <script type="text/javascript" src="{% static 'outside_app/jQuery-3.6.0/jquery-3.6.0.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'outside_app/OwlCarousel/js/owl.carousel.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'outside_app/main.js' %}"></script>
 </head>
 <body>
-<div style="flex: 1 0 auto;">
 {#<div style="position: relative;">#}
 
-    <div class="container-istok">
+<div class="container-istok">
 
-        <header id="header" class="header_rusatom header_fixed"
-                style="width: 100%; justify-content: center">
-            <header id="header" class="header_rusatom header_fixed">
-                <div class="header_logo">
-                    <a><img src="{% static 'outside_app/img/logo_small.png' %}" width="110" height="50"></a>
-                </div>
-                <nav class="menu">
-                    <div class="menu-title"><a class="menu-link" href="{% url 'index' %}"> О компании</a></div>
-                    <div class="menu-title"><a class="menu-link" href="{% url 'napr' %}">Направления деятельности</a>
-                    </div>
-                    <div class="menu-title"><a class="menu-link" href="{% url 'zakup' %}">Закупки</a></div>
-                    <div class="menu-title"><a class="menu-link" href="{% url 'career' %}">Карьера</a></div>
-                    <div class="menu-title"><a class="menu-link" href="{% url 'about' %}">Контакты</a></div>
-                </nav>
-            </header>
-        </header>
-    </div>
-    <main>
-        {% block content %}
-        {% endblock %}
-    </main>
+    {#        <header id="header" class="header_rusatom header_fixed"#}
+    {#                style="width: 100%; justify-content: center">#}
+    {#            <header id="header" class="header_rusatom header_fixed">#}
+    {#                <div class="header_logo">#}
+    {#                    <a><img src="{% static 'outside_app/img/logo_small.png' %}" width="110" height="50"></a>#}
+    {#                </div>#}
+    {#                <nav class="menu">#}
+    {#                    <div class="menu-title"><a class="menu-link" href="{% url 'index' %}"> О компании</a></div>#}
+    {#                    <div class="menu-title"><a class="menu-link" href="{% url 'napr' %}">Направления деятельности</a>#}
+    {#                    </div>#}
+    {#                    <div class="menu-title"><a class="menu-link" href="{% url 'zakup' %}">Закупки</a></div>#}
+    {#                    <div class="menu-title"><a class="menu-link" href="{% url 'career' %}">Карьера</a></div>#}
+    {#                    <div class="menu-title"><a class="menu-link" href="{% url 'about' %}">Контакты</a></div>#}
+    {#                </nav>#}
+    {#            </header>#}
+    {#        </header>#}
+    {% include 'outside_app/header.html' %}
 </div>
+<main>
+    {% block content %}
+    {% endblock %}
+</main>
 
-<footer>
-    <div class="container-istok" style="z-index: 100">
-        <div class="bgfooter">
-            <div class="row-footer">
-                <div style="justify-content: center">
-                    <span class="text-span">2023 Акционерное общество «Компания инжиниринга и строительства «ИСТОК»</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
 
+{% include 'outside_app/footer.html' %}
+<script>
+
+</script>
 
 </body>
 

@@ -1,0 +1,516 @@
+@font-face {
+    font-family: 'Rosatom';
+    src: url('../fonts/rosatom/Rosatom-Italic.eot');
+    src: local('Rosatom Italic'), local('Rosatom-Italic'),
+    url('../fonts/rosatom/Rosatom-Italic.eot') format('embedded-opentype'),
+    url('../fonts/rosatom/Rosatom-Italic.woff2') format('woff2'),
+    url('../fonts/rosatom/Rosatom-Italic.woff') format('woff'),
+    url('../fonts/rosatom/Rosatom-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rosatom';
+    src: url('../fonts/rosatom/Rosatom-Light.eot');
+    src: local('Rosatom Light'), local('Rosatom-Light'),
+    url('../fonts/rosatom/Rosatom-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/rosatom/Rosatom-Light.woff2') format('woff2'),
+    url('../fonts/rosatom/Rosatom-Light.woff') format('woff'),
+    url('../fonts/rosatom/Rosatom-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rosatom';
+    src: url('../fonts/rosatom/Rosatom-Bold.eot');
+    src: local('Rosatom Bold'), local('Rosatom-Bold'),
+    url('../fonts/rosatom/Rosatom-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/rosatom/Rosatom-Bold.woff2') format('woff2'),
+    url('../fonts/rosatom/Rosatom-Bold.woff') format('woff'),
+    url('../fonts/rosatom/Rosatom-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rosatom';
+    src: url('../fonts/rosatom/Rosatom-Regular.eot');
+    src: local('Rosatom'), local('Rosatom-Regular'),
+    url('../fonts/rosatom/Rosatom-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/rosatom/Rosatom-Regular.woff2') format('woff2'),
+    url('../fonts/rosatom/Rosatom-Regular.woff') format('woff'),
+    url('../fonts/rosatom/Rosatom-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golos_400';
+    src: url('../fonts/golos/400/font.woff2') format('woff2'),
+    url('../fonts/golos/400/font.woff') format('woff'),
+    url('../fonts/golos/400/font.eot') format('eot');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Golos_500';
+    src: url('../fonts/golos/500/font.woff2') format('woff2'),
+    url('../fonts/golos/500/font.woff') format('woff'),
+    url('../fonts/golos/500/font.eot') format('eot');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Golos_700';
+    src: url('../fonts/golos/700/font.woff2') format('woff2'),
+    url('../fonts/golos/700/font.woff') format('woff'),
+    url('../fonts/golos/700/font.eot') format('eot');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.header {
+    display: flex;
+    border-bottom: 1px solid #f2f2f2;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_logo {
+    /*display: inline-block;*/
+    width: 110px;
+    height: 50px;
+    /*position: relative*/
+
+}
+
+.header-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.logo-block {
+    float: left;
+}
+
+.menu {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 38px;
+}
+
+.navigation-root {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 0;
+    padding-left: 0;
+    height: 100%;
+    gap: 38px;
+
+}
+
+.navigation-list-item {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-list-item a {
+    font-family: "Golos_400", serif;
+    font-weight: normal;
+    font-size: 14px;
+    text-decoration: none;
+    color: #333333;
+}
+
+.navigation-list-item a:hover {
+    color: #025EA1;
+}
+
+.slider_container {
+    display: flex;
+    color: #ffffff;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    width: 60%;
+}
+
+.slider_container {
+    padding-right: 20px;
+    color: #ffffff;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    width: 60%;
+}
+
+.main-slider__title {
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+    font-size: 30px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    vertical-align: middle;
+
+}
+
+@media (max-width: 1060px) {
+    .navigation-root {
+        display: none;
+    }
+}
+
+.navigation-toggle-link {
+    display: none;
+    /*background: url('../images/list.svg');*/
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    /*padding-right: 50px;*/
+}
+
+.navigation-toggle-link-icon {
+    -webkit-mask-image: url('../images/list.svg');
+    mask-image: url('../images/list.svg');
+    /*background: url('../images/list.svg');*/
+    background-color: #4e5f68;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 19px;
+}
+
+
+@media (max-width: 1060px) {
+    .navigation-toggle-link {
+        display: flex;
+    }
+}
+
+.dropdown {
+    display: none;
+    align-items: start;
+    /*display: inline-block;*/
+    z-index: 50;
+    min-width: 80vw;
+    position: absolute;
+    background-color: white;
+    right: 2%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+@media (max-width: 1059px) and (min-width: 0px) {
+    .navigation-list-item {
+        background: white;
+        padding-left: 40px;
+        min-height: 40px;
+    }
+
+    .dropdown-content {
+        display: block;
+    }
+}
+
+@media (max-width: 992px) {
+    .director-bio{
+        margin-top: 50px;
+    }
+    
+}
+
+.bgfooter {
+    flex-shrink: 0;
+    width: 100%;
+    height: 75px;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /*bottom: 0px;*/
+    color: white;
+    background: #525760;
+}
+
+.text-span {
+    font-size: 14px;
+    font-family: "Rosatom", serif;
+    font-weight: normal;
+
+}
+
+.h3-istok {
+    color: #333333;
+    font-size: 40px;
+    font-family: "Golos_700", serif;
+    word-wrap: break-word;
+    margin-top: 28px;
+}
+
+.h4-istok {
+    color: #333333;
+    font-size: 28px;
+    font-family: "Golos_700", serif;
+    word-wrap: break-word;
+    line-height: 36px;
+}
+
+.h5-istok {
+    color: #333333;
+    font-size: 20px;
+    font-family: "Golos_700", serif;
+    word-wrap: break-word;
+    line-height: 36px;
+}
+
+.text-24px-700 {
+    font-size: 24px;
+    font-family: "Golos_700", serif;
+    color: #333333;
+    word-wrap: break-word
+}
+
+.text-24px-500 {
+    font-size: 24px;
+    font-family: "Golos_500", serif;
+    color: #333333;
+    word-wrap: break-word
+}
+
+.text-20px {
+    font-size: 20px;
+    font-family: "Golos_400", serif;
+    color: #333333;
+    word-wrap: break-word
+}
+
+.text-13pх-400 {
+    font-size: 13px;
+    font-family: "Golos_400", serif;
+    color: #333333;
+    word-wrap: break-word
+}
+
+.text-13pх-400-grey {
+    font-size: 13px;
+    font-family: "Golos_400", serif;
+    color: #9F9E9E;
+    word-wrap: break-word
+}
+
+.text-12pх-400-grey {
+    font-size: 13px;
+    font-family: "Golos_400", serif;
+    color: #9F9E9E;
+    word-wrap: break-word
+}
+
+.footer-company-name {
+    display: flex;
+    justify-content: start;
+    height: 50px;
+    align-items: center;
+}
+
+.text-12pх-400 {
+    font-size: 13px;
+    font-family: "Golos_400", serif;
+    color: #333333;
+    word-wrap: break-word
+}
+
+.text-20px-500 {
+    font-size: 20px;
+    font-family: "Golos_500", serif;
+    color: #333333;
+    word-wrap: break-word
+}
+
+.text-year-timeline {
+    color: #025EA1;
+    font-size: 24px;
+    font-family: "Golos_500", serif;
+    word-wrap: break-word
+}
+
+.text-description-timeline {
+    color: #6CACE4;
+    font-size: 20px;
+    font-family: "Golos_400", serif;
+    word-wrap: break-word
+}
+
+.info-number-block {
+    display: flex;
+    margin-top: 30px;
+    min-height: 120px;
+}
+
+.number-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.number {
+    width: 54px;
+    display: flex;
+    color: #025EA1;
+    font-size: 54px;
+    font-family: "Golos_700", serif;
+}
+
+.number-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.number-description-title {
+    display: flex;
+    color: #333333;
+    font-size: 20px;
+    font-family: "Golos_500", serif;
+    word-wrap: break-word
+}
+
+.number-description {
+    display: flex;
+    color: #333333;
+    font-size: 14px;
+    font-family: "Golos_400", serif;
+    word-wrap: break-word
+}
+
+.Vector47 {
+    width: 100%;
+    height: 100%;
+    border: 1.50px #6CACE4 solid
+}
+
+.d1 {
+    position: absolute;
+    width: 750px;
+    height: 750px;
+    background: #D6DEE9;
+    border-radius: 50%;
+    z-index: -1;
+    left: -5%;
+}
+
+.d2 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: #F2F5F8;
+    border-radius: 50%;
+    z-index: -1;
+    right: 0;
+}
+
+.li-corruption {
+    color: #6CACE4;
+    margin-bottom: 10px;
+}
+
+.question {
+    margin-top: 100px;
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 400px;
+    z-index: -1;
+    margin-left: 50px;
+}
+
+.li-arrow {
+    display: flex;
+    align-items: center;
+}
+
+.li-arrow:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.li-arrow::before {
+    content: url('../images/Vector 48.svg');
+    width: 20px;
+    height: 20px;
+    margin-right: 50px;
+    flex-shrink: 0;
+}
+
+.text-blue-16px-500 {
+    font-size: 16px;
+    font-family: "Golos_500", serif;
+    color: #6CACE4;
+    word-wrap: break-word
+}
+
+.text-blue-24px-400 {
+    text-align: right;
+    display: flex;
+    font-size: 24px;
+    font-family: "Golos_400", serif;
+    color: #6CACE4;
+    word-wrap: break-word
+}
+
+.text-blue-28px-400 {
+    text-align: right;
+    display: flex;
+    font-size: 28px;
+    font-family: "Golos_400", serif;
+    color: #6CACE4;
+    word-wrap: break-word
+}
+
+.blue-oval {
+    margin-left: -20px;
+    margin-top: -20px;
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 300px;
+    z-index: -1;
+}
+
+.line-gray {
+    display: flex;
+    width: 100%;
+    height: 1.5px;
+    border: 1.5px #D9D9D9 solid;
+}

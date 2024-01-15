@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Rosatom';
+    src: url('Rosatom-Italic.eot');
+    src: local('Rosatom Italic'), local('Rosatom-Italic'),
+        url('Rosatom-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Rosatom-Italic.woff2') format('woff2'),
+        url('Rosatom-Italic.woff') format('woff'),
+        url('Rosatom-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rosatom';
+    src: url('Rosatom-Light.eot');
+    src: local('Rosatom Light'), local('Rosatom-Light'),
+        url('Rosatom-Light.eot?#iefix') format('embedded-opentype'),
+        url('Rosatom-Light.woff2') format('woff2'),
+        url('Rosatom-Light.woff') format('woff'),
+        url('Rosatom-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rosatom';
+    src: url('Rosatom-Bold.eot');
+    src: local('Rosatom Bold'), local('Rosatom-Bold'),
+        url('Rosatom-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Rosatom-Bold.woff2') format('woff2'),
+        url('Rosatom-Bold.woff') format('woff'),
+        url('Rosatom-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rosatom';
+    src: url('Rosatom-Regular.eot');
+    src: local('Rosatom'), local('Rosatom-Regular'),
+        url('Rosatom-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Rosatom-Regular.woff2') format('woff2'),
+        url('Rosatom-Regular.woff') format('woff'),
+        url('Rosatom-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

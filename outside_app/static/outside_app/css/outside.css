@@ -28,16 +28,6 @@
 
 }
 
-@font-face {
-    font-family: 'p22_underground_cy_probook';
-    src: url('../fonts/P22UndergroundCYPro-Book.woff2') format('woff2'),
-    url('../fonts/P22UndergroundCYPro-Book.woff') format('woff'),
-    url('../fonts/P22UndergroundCYPro-Book.otf') format('otf');
-    font-weight: bold;
-    font-style: normal;
-}
-
-
 html {
     height: 100%;
 }
@@ -100,6 +90,7 @@ body {
 }
 
 .menu {
+    min-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -355,15 +346,6 @@ body {
     opacity: 1;
 }
 
-
-.item-description {
-    position: absolute;
-    top: 182px;
-    right: 0;
-    width: 50%;
-    padding-right: 4%;
-    line-height: 1.8;
-}
 
 /* Staggered Vertical Items ------------------------------------------------------*/
 .item-header {

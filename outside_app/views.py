@@ -6,7 +6,7 @@ from django.db.models import Q
 # Create your views here.
 class IndexView(View):
     def get(self, request):
-        return render(request, 'outside_app/index.html')
+        return render(request, 'outside_app/index4.html')
 
 
 class Napriew(View):
@@ -26,3 +26,8 @@ class CareeView(View):
 class ZakupView(View):
     def get(self, request):
         return render(request, 'outside_app/zakup.html')
+
+
+class CompanyView(View):
+    def get(self, request):
+        return render(request, 'outside_app/company.html')
