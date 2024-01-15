@@ -249,10 +249,17 @@
 }
 
 @media (max-width: 992px) {
-    .director-bio{
+    .director-bio {
         margin-top: 50px;
     }
-    
+
+    .timeline-block {
+        display: none;
+    }
+
+    .oval-number-block {
+        display: none;
+    }
 }
 
 .bgfooter {
@@ -291,6 +298,12 @@
     line-height: 36px;
 }
 
+@media (max-width: 576px) {
+    .h3-istok {
+        font-size: 28px;
+    }
+}
+
 .h5-istok {
     color: #333333;
     font-size: 20px;
@@ -313,11 +326,41 @@
     word-wrap: break-word
 }
 
+
+@media (max-width: 576px) {
+    .text-24px-700 {
+        font-size: 20px;
+    }
+
+    .text-24px-500 {
+        font-size: 20px;
+    }
+}
+
+
 .text-20px {
     font-size: 20px;
     font-family: "Golos_400", serif;
     color: #333333;
     word-wrap: break-word
+}
+
+
+.text-20px-500 {
+    font-size: 20px;
+    font-family: "Golos_500", serif;
+    color: #333333;
+    word-wrap: break-word
+}
+
+@media (max-width: 576px) {
+    .text-20px {
+        font-size: 16px;
+    }
+
+    .text-20px-500 {
+        font-size: 16px;
+    }
 }
 
 .text-13pх-400 {
@@ -351,13 +394,6 @@
 .text-12pх-400 {
     font-size: 13px;
     font-family: "Golos_400", serif;
-    color: #333333;
-    word-wrap: break-word
-}
-
-.text-20px-500 {
-    font-size: 20px;
-    font-family: "Golos_500", serif;
     color: #333333;
     word-wrap: break-word
 }
@@ -443,6 +479,19 @@
     right: 0;
 }
 
+@media (max-width: 750px) {
+    .d1 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .d2 {
+        width: 200px;
+        height: 200px;
+    }
+
+}
+
 .li-corruption {
     color: #6CACE4;
     margin-bottom: 10px;
@@ -481,7 +530,7 @@
     word-wrap: break-word
 }
 
-.text-blue-24px-400 {
+.text-blue-24px-400-right {
     text-align: right;
     display: flex;
     font-size: 24px;
@@ -490,13 +539,33 @@
     word-wrap: break-word
 }
 
+
+@media (max-width: 992px) {
+    .text-blue-24px-400-right {
+        text-align: left;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 576px) {
+    .text-blue-24px-400-right {
+        font-size: 20px;
+    }
+}
+
+
 .text-blue-28px-400 {
-    text-align: right;
     display: flex;
     font-size: 28px;
     font-family: "Golos_400", serif;
     color: #6CACE4;
     word-wrap: break-word
+}
+
+@media (max-width: 576px) {
+    .text-blue-28px-400 {
+        font-size: 20px;
+    }
 }
 
 .blue-oval {
@@ -513,4 +582,8 @@
     width: 100%;
     height: 1.5px;
     border: 1.5px #D9D9D9 solid;
+}
+
+.subdivision-block {
+    margin-top: 50px;
 }
