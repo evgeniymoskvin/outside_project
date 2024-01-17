@@ -1,5 +1,5 @@
 {% load static %}
-<div id="header" class="header primary-color">
+<div id="header" class="header">
     <div class="container">
         <div class="header-inner">
             <div class="header_logo col-2">
@@ -7,11 +7,11 @@
             </div>
             <nav class="menu">
                 <ul class="navigation-root">
-                    <li class="navigation-list-item"><a href="/">АО КИС “ИСТОК”</a></li>
+                    <li class="navigation-list-item"><a href="{% url 'index' %}">АО КИС “ИСТОК”</a></li>
                     <li class="navigation-list-item"><a href="{% url 'company' %}">О компании</a></li>
-                    <li class="navigation-list-item"><a href="/about_company/">Направления деятельности</a></li>
-                    <li class="navigation-list-item"><a href="/about_company/">Закупки</a></li>
-                    <li class="navigation-list-item"><a href="/about_company/">Карьера</a></li>
+                    <li class="navigation-list-item"><a href="{% url 'index' %}">Направления деятельности</a></li>
+                    <li class="navigation-list-item"><a href="{% url 'index' %}">Закупки</a></li>
+                    <li class="navigation-list-item"><a href="{% url 'index' %}">Карьера</a></li>
                 </ul>
                 <div id='navigation-toggle-link' class="navigation-toggle-link float-right"
                      onclick="clickTooglemenu()">
@@ -25,11 +25,11 @@
 
 <div id="dropdown" class="dropdown">
     <ul class="dropdown-content">
-        <li class="navigation-list-item"><a href="/about_company/">АО КИС “ИСТОК”</a></li>
-        <li class="navigation-list-item"><a href="/about_company/">О компании</a></li>
-        <li class="navigation-list-item"><a href="/about_company/">Направления деятельности</a></li>
-        <li class="navigation-list-item"><a href="/about_company/">Закупки</a></li>
-        <li class="navigation-list-item"><a href="/about_company/">Карьера</a></li>
+        <li class="navigation-list-item"><a href="{% url 'index' %}">АО КИС “ИСТОК”</a></li>
+        <li class="navigation-list-item"><a href="{% url 'company' %}">О компании</a></li>
+        <li class="navigation-list-item"><a href="{% url 'index' %}">Направления деятельности</a></li>
+        <li class="navigation-list-item"><a href="{% url 'index' %}">Закупки</a></li>
+        <li class="navigation-list-item"><a href="{% url 'index' %}">Карьера</a></li>
     </ul>
 </div>
 

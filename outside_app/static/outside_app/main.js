@@ -45,16 +45,21 @@
 // */
 // });
 $(document).ready(function () {
-    $('.owl-carousel').owlCarousel({
+    $('.slide-one').owlCarousel({
         loop: true,
-        margin: 50,
+        margin: 0,
         nav: true,
         autoplay: true,
         smartSpeed: 1000, //Время движения слайда
         autoplayTimeout: 5000, //Время смены слайда
         responsive: {
             0: {
-                items: 1
+                items: 1,
+                nav: false,
+            },
+            450: {
+                items: 1,
+                nav: false,
             },
             600: {
                 items: 1
@@ -64,11 +69,11 @@ $(document).ready(function () {
             }
         },
         navText: [
-            "<a class='carousel-control-prev' href='#newAppointment' role='button' data-slide='prev'>" +
+            "<a class='carousel-control-prev' href='#owl-carousel-title' role='button' data-slide='prev'>" +
             "<span class = 'carousel-control-prev-icon' aria-hidden = 'true'>" +
             "</span>" +
             "</a>",
-            "<a class='carousel-control-next' href='#newAppointment' role='button' data-slide='next'>" +
+            "<a class='carousel-control-next' href='#owl-carousel-title' role='button' data-slide='next'>" +
             "<span class='carousel-control-next-icon' aria-hidden='true'>" +
             "</span>" +
             "</a>"
@@ -76,6 +81,40 @@ $(document).ready(function () {
         dots: false,
 
     })
+
+    var smallCarousel = $('.slide-two')
+    smallCarousel.owlCarousel({
+        loop: false,
+        margin: 0,
+
+        // nav: true,
+        // autoplay: true,
+        smartSpeed: 1000, //Время движения слайда
+        autoplayTimeout: 5000, //Время смены слайда
+        responsive: {
+            0: {
+                items: 1,
+                nav: false,
+            },
+            768: {
+                items: 2
+            },
+            1200: {
+                items: 3
+            }
+        },
+        dots: false,
+
+    })
+
 })
 
+function prevSmallCarousel() {
+    var smallCarousel = $('.slide-two')
+    smallCarousel.trigger('prev.owl.carousel');
+}
 
+function nextSmallCarousel() {
+    var smallCarousel = $('.slide-two')
+    smallCarousel.trigger('next.owl.carousel');
+}

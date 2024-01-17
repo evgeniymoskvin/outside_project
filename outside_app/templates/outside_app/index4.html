@@ -8,28 +8,110 @@
 {% block content %}
 
     <div class="container-istok">
-        <div class="content-width" style="background-color: white; position: relative;">
-            <div id="newAppointment" class="owl-carousel owl-theme" style="max-height: 280px">
+        <div class="content-width">
+            {#            <!--nav: 24px -->#}
+            <div id="owl-carousel-title" class="owl-carousel slide-one" data-ride="carousel">
 
-                <div class="item" style="max-height: 280px">
-                    <img class="d-none d-md-block" src="{% static 'outside_app/img/slideshow/1.jpg' %}">
+                <div class="item">
+                    <img class=" d-none d-md-block"
+                         src="{% static 'outside_app/images/1920x381_01.jpg' %}">
+                    <img class=" d-block d-md-none"
+                         src="{% static 'outside_app/images/mobile_01.jpg' %}">
+                    {#                    <img src="{% static 'outside_app/img/slideshow/1.jpg' %}">#}
                     <div class="slider_container">
-						<div class="main-slider__title">
-							<div class="row align-items-center" style="height: 100%;">
-									<p style="padding-left:10%;">ИТ-интегратор<br>Госкорпорации «Росатом» </p>
-							</div>
-						</div>
-						<!--div class="main-slider__description sp2 spp1 active-slide wow animated_2 fadeInUp"></div-->
-					</div>
+                        <div class="main-slider__title">
+                            <div class="row align-items-end" style="height: 100%;">
+                                <p class="carousel__title">Комплексное проектирование</p>
+                            </div>
+                        </div>
+                        <!--div class="main-slider__description sp2 spp1 active-slide wow animated_2 fadeInUp"></div-->
+                    </div>
                 </div>
-                <div class="item" style="max-height: 280px">
-                    <img class="d-none d-md-block" src="{% static 'outside_app/img/slideshow/2.jpg' %}">
+
+                <div class="item">
+                    <img class=" d-none d-md-block"
+                         src="{% static 'outside_app/images/1920x381_02.jpg' %}">
+                    <img class=" d-block d-md-none"
+                         src="{% static 'outside_app/images/mobile_02.jpg' %}">
+                    {#                    <img src="{% static 'outside_app/img/slideshow/2.jpg' %}">#}
                 </div>
-                <div class="item" style="max-height: 280px">
-                    <img class="d-none d-md-block" src="{% static 'outside_app/img/slideshow/3.jpg' %}">
+
+                <div class="item">
+                    <img class=" d-none d-md-block"
+                         src="{% static 'outside_app/images/1920x381_03.jpg' %}">
+                    <img class=" d-block d-md-none"
+                         src="{% static 'outside_app/images/mobile_03.jpg' %}">
+                    {#                    <img src="{% static 'outside_app/img/slideshow/3.jpg' %}">#}
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+    <div class="row">
+        <h1 class="h3-istok">Акционерное общество <br/>«Компания инжиниринга и строительства «ИСТОК»
+        </h1>
+    </div>
+    <div class="row justify-content-between">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4" style="margin-top: 31px">
+
+            <span class="text-20px">30 августа 2021 года АО КИС «ИСТОК» стала новой инжиниринговой организацией Госкорпорации «Росатом».</span>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7" style="margin-top: 31px">
+                <span class="text-20px">АО КИС «ИСТОК» занимается инженерными изысканиями, инженерно-техническим проектированием,
+                управлением проектами строительства, выполнением строительного контроля и авторского надзора,
+                    предоставлением <br/>технических консультаций в этих областях для организаций атомной отрасли.</span>
+        </div>
+    </div>
+    <div class="row justify-content-center justify-content-sm-center justify-content-md-between">
+        <div class="rectangle-index-block">
+            <span class="rectangle-index-block__inner_text">Генеральный <br> Директор</span>
+        </div>
+        <div class="rectangle-index-block">
+            <span class="rectangle-index-block__inner_text">Противодействие <br>коррупции</span>
+        </div>
+        <div class="rectangle-index-block">
+            <span class="rectangle-index-block__inner_text">Контакты<br>&nbsp;</span>
+        </div>
+    </div>
+
+    <div class="row justify-content-between" style="margin-top: 170px">
+        <div class="col">
+            Другие новости
+        </div>
+        <div class="col">
+            <div class="float-end">
+                <button class="all-news-button">Все новости</button>
+                <button id='prev-small-carousel' class="ellipse-news-button" onclick="prevSmallCarousel()"> < </button>
+                <button id='next-small-carousel' class="ellipse-news-button" onclick="nextSmallCarousel()"> ></button>
+            </div>
+        </div>
+    </div>
+    <div class="line-gray" style="height: 1.5px; margin-top: 50px"></div>
+    <div class="row" style="margin-top: 40px">
+        <div id="owl-carousel-small" class="owl-carousel slide-two">
+            <div class="col-12">
+                <div class="news-block">
+                    <h2>Новость 1</h2>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="news-block">
+                    <h2>Новость 2</h2>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="news-block">
+                    <h2>Новость 3</h2>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="news-block">
+                    <h2>Новость 4</h2>
                 </div>
             </div>
         </div>
+
     </div>
 
     <script>
