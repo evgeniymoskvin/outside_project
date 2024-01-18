@@ -814,3 +814,46 @@
     height: 420px;
     object-fit: cover;
 }
+
+@media (min-width: 576px) {
+    .item {
+        height: 250px;
+    }
+
+    .item img {
+        height: 250px;
+
+    }
+}
+
+@media (min-width: 768px) {
+    .item {
+        height: 330px;
+    }
+
+    .item img {
+        height: 330px;
+
+    }
+}
+@media (min-width: 1200px) {
+    .item {
+        height: 380px;
+    }
+
+    .item img {
+        height: 380px;
+
+    }
+}
+
+/*@media (min-height: 1200px) {*/
+/*    .item {*/
+/*        height: 420px;*/
+/*    }*/
+
+/*    .item img {*/
+/*        height: 420px;*/
+
+/*    }*/
+/*}*/
