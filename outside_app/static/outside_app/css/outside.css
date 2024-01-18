@@ -274,14 +274,13 @@ body {
     height: 280px;
 }
 
-.item {
-    display: flex;
-    width: 100%;
-}
+
+
+
 
 .item__img {
     display: flex;
-    max-height: 280px;
+    max-height: 250px;
 }
 
 /*@media (max-width: 1060px) {*/

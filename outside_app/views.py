@@ -23,6 +23,7 @@ class CareeView(View):
     def get(self, request):
         return render(request, 'outside_app/career.html')
 
+
 class ZakupView(View):
     def get(self, request):
         return render(request, 'outside_app/zakup.html')
@@ -31,3 +32,7 @@ class ZakupView(View):
 class CompanyView(View):
     def get(self, request):
         return render(request, 'outside_app/company.html')
+
+class GridView(View):
+    def get(self, request):
+        return render(request, 'outside_app/grid.html')
