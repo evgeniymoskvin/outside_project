@@ -96,6 +96,9 @@ $(document).ready(function () {
                 items: 1,
                 nav: false,
             },
+            576: {
+                items: 2
+            },
             768: {
                 items: 2
             },
