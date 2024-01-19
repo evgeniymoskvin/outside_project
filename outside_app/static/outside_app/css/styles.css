@@ -872,13 +872,24 @@
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px){
     .item {
         height: 380px;
     }
 
     .item img {
         height: 380px;
+
+    }
+}
+
+@media (min-width: 1400px) {
+    .item {
+        height: 420px;
+    }
+
+    .item img {
+        height: 420px;
 
     }
 }
