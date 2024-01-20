@@ -831,6 +831,17 @@
     }
 }
 
+@media (min-width: 0) {
+    /*@media (max-width: 576px) {*/
+    .news-block {
+        max-width: calc(100% - 24px);
+        height: 390px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+}
+
+
 .news_block__inner {
     display: flex;
     flex-direction: column;
