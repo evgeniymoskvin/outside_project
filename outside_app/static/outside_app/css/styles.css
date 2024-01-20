@@ -641,7 +641,7 @@
     padding-left: 0;
 }
 
-.block_in_li_arrow{
+.block_in_li_arrow {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -1091,4 +1091,30 @@
 .li-direction {
     color: #6CACE4;
     /*margin-bottom: 26px;*/
+}
+
+/*Блоки с картинкой на странице карьеры*/
+
+.career_img_block {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.career_img_block__image {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.career_img_block__text {
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Golos_400", serif;
+    color: #333333;
 }

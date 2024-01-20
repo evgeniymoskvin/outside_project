@@ -1,7 +1,7 @@
 {% extends 'outside_app/base.html' %}
-
+{% load static %}
 {% block title %}
-    Карьера
+    Карьера АО "Исток"
 {% endblock %}
 
 
@@ -69,5 +69,65 @@
                 Мы предлагаем:
             </h3>
         </div>
-    </div>
+
+        <div class="row justify-content-around" style="margin-top: 45px">
+            <div class="col-6 col-md-4 col-lg-3 col-xl-2 justify-content-center mt-5 mt-xl-0">
+                <div class="career_img_block">
+                    <div class="career_img_block__image">
+                        <img src="{% static "outside_app/images/icon/1.svg" %}">
+                    </div>
+                    <div class="career_img_block__text">
+                        Официальное трудоустройство
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 col-xl-2 justify-content-center mt-5 mt-xl-0">
+                <div class="career_img_block">
+                    <div class="career_img_block__image">
+                        <img src="{% static "outside_app/images/icon/2.svg" %}">
+                    </div>
+                    <div class="career_img_block__text">
+                        Конкурентоспособную белую зарплату
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 col-xl-2 justify-content-center mt-5 mt-xl-0">
+                <div class="career_img_block">
+                    <div class="career_img_block__image">
+                        <img src="{% static "outside_app/images/icon/3.svg" %}">
+                    </div>
+                    <div class="career_img_block__text">
+                        Социальный пакет
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-6 col-xl-2 justify-content-center mt-5 mt-xl-0">
+                <div class="career_img_block">
+                    <div class="career_img_block__image">
+                        <img src="{% static "outside_app/images/icon/4.svg" %}">
+                    </div>
+                    <div class="career_img_block__text">
+                        Прозрачный план карьерного роста
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-2 justify-content-center mt-5 mt-xl-0">
+                <div class="career_img_block">
+                    <div class="career_img_block__image">
+                        <img src="{% static "outside_app/images/icon/5.svg" %}">
+                    </div>
+                    <div class="career_img_block__text">
+                        Участие в российских и международных отраслевых мероприятиях, митапах, конференциях, форумах
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="row" style="margin-top: 90px">
+                <h3 class="text-24px-700">
+                    Профессиональный рост в компании:
+                </h3>
+            </div>
+        </div>
 {% endblock %}
