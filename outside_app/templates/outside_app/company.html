@@ -1,33 +1,33 @@
 {% extends 'outside_app/base.html' %}
 {% load static %}
 {% block title %}
-    Главная
+    О компании АО "Исток"
 {% endblock %}
 
 
 {% block content %}
 
     <div class="container">
-        <h3 class="h3-istok">Генеральный директор</h3>
+        <h1 class="h1-istok">Генеральный директор</h1>
 
-        <div class="row" style="margin-top: 38px; justify-content: space-between ">
+        <div class="row justify-content-between" style="margin-top: 38px;">
             <div class="col-lg-6 col-xl-5 col-xxl-5 col-md-12 col-sm-12 col-12">
                 <img style="width: 100%" src="{% static 'outside_app/images/image_16_10.png' %}">
             </div>
-
-            <div class="col-lg-5 col-xl-6 col-xxl-6 col-md-12 col-sm-12 col-12">
+            <div class="col-1 d-none d-xl-block"></div>
+            <div class="col-lg-6 col-xl-6 col-xxl-6 col-md-12 col-sm-12 col-12">
                 <div class="director-bio">
                     <div style="display: flex; flex-direction: column; justify-content: space-between; min-height: 100%">
                         <div class="row" style="display: flex">
-                            <h4 class="h4-istok">Кутумов Виктор Викторович </h4>
+                            <h2 class="text-28px-700">Кутумов Виктор Викторович </h2>
                         </div>
                         <div class="row" style="display: flex">
                             <h5 class="h5-istok">Образование </h5>
-                            <p class="text-20px">г. Москва, <br/>Национальный институт имени Екатерины Великой,</p>
-                            <p class="text-20px">Специальность «Финансы и кредит»</p>
+                            <p class="text-24px-400">г. Москва, <br/>Национальный институт имени Екатерины Великой,</p>
+                            <p class="text-24px-400">Специальность «Финансы и кредит»</p>
                         </div>
                         <div class="row" style="display: flex">
-                            <p class="text-20px-500">Трудовая деятельность в Госкорпорации<br> «Росатом» началась с 2001
+                            <p class="text-24px-500">Трудовая деятельность в Госкорпорации<br> «Росатом» началась с 2001
                                 года</p>
                         </div>
                     </div>
@@ -135,19 +135,19 @@
         </div>
 
         <div class="row" style="margin-top: 150px">
-            <h3 class="h3-istok">Противодействие коррупции </h3>
+            <h3 class="h1-istok">Противодействие коррупции </h3>
         </div>
 
         <div class="row" style="margin-top: 40px">
             <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7">
-                <p class="text-24px-500">
+                <p class="text-24px-400">
                     Политика противодействия коррупции в Госкорпорации «Росатом» работает на основании Федерального
                     закона от 25.12.2008 № 273-ФЗ «О противодействии коррупции».
                 </p>
-                <p class="text-24px-500">
+                <p class="text-24px-400">
                     АО КИС «ИСТОК» поддерживает эту политику и принимает участие в ней.
                 </p>
-                <p class="text-20px-500" style="margin-top: 35px">
+                <p class="text-24px-500" style="margin-top: 35px">
                     Для совершенствования действующей системы противодействия коррупции в АО КИС «ИСТОК»
                 </p>
                 <ul class="text-20px" style="padding-left: 0">
@@ -174,7 +174,7 @@
             <h4 class="h4-istok">Что относится к коррупционному правонарушению?
             </h4>
         </div>
-        <div class="row" style="margin-top: 40px; display: flex; justify-content: space-between">
+        <div class="row" style="margin-top: 40px;">
             <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4" style="padding-left: 0">
                 <ul>
                     <li class="li-corruption">
@@ -191,6 +191,7 @@
                     </li>
                 </ul>
             </div>
+            <div class="col-1 d-none d-xl-block"></div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7" style="padding-left: 0">
                 <ul>
                     <li class="li-corruption">
@@ -258,19 +259,21 @@
             </div>
         </div>
         <div class="line-gray" style="margin-top: 60px;"></div>
-        <div class="row justify-content-end">
+        <div class="row justify-content-end" style="margin-top: 30px">
             <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-6 col-xxl-5">
                 {#            <div class="col-5" style="padding-right: 0; margin-right: 0">#}
-                <div class="text-blue-24px-400-right">
-                    Рассматриваются все сообщения<br>
-                    Заявителям гарантируется анонимность и<br>независимость рассмотрения сообщения
+                <div class="text-blue-24px-400-right float-right">
+                    <span>Рассматриваются все сообщения</span>
+                </div>
+                <div class="text-blue-24px-400-right float-right" style="margin-top: 10px">
+                    <span>Заявителям гарантируется анонимность и<br>независимость рассмотрения сообщения</span>
                 </div>
             </div>
         </div>
 
 
         <div class="row" style="margin-top: 100px">
-            <h3 class="h3-istok">Контакты</h3>
+            <h3 class="h1-istok">Контакты</h3>
         </div>
 
         <div class="row" style="margin-top: 60px">

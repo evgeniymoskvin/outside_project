@@ -1,70 +1,102 @@
 {% extends 'outside_app/base.html' %}
 
 {% block title %}
-    Закупки
+    Закупки АО "Исток"
 {% endblock %}
 
 {% block content %}
-    <div class="container-istok-2" style="margin-top:75px; margin-bottom: 75px;">
 
-        <div style="width: 1200px; margin-top: 50px">
-            <div class="row">
-                <div class="col">
-
-                    <div class="my_img-33" style="margin-top: 45px"></div>
-                </div>
-                <div class="col">
-                    <h2 class="text-h2"> Закупки
-                    </h2>
-                    <p class="text-span">
-                        С 2021 года закупки за счет собственных и внебюджетных средств АО КИС «ИСТОК» осуществляются в
-                        соответствии с Федеральным законом от 18.07.2011 № 223-ФЗ «О закупках товаров, работ, услуг
-                        отдельными видами юридических лиц».
-
-                        В соответствии с Федеральным законом № 223-ФЗ Положением о закупке АО КИС «ИСТОК» является
-                        Единый
-                        отраслевой стандарт закупок (Положение о закупке) Госкорпорации «Росатом», утвержденный решением
-                        совета директоров от 26.11.2021 № 4 и Приказом АО КИС «ИСТОК» от 29.11.2021 № 14/11-П и
-                        размещенный
-                        на официальном сайте Единой информационной системы в сфере закупок товаров, работ, услуг для
-                        обеспечения государственных и муниципальных нужд, www.zakupki.gov.ru и на официальном сайте о
-                        размещении заказов на закупки товаров, работ и услуг для нужд Госкорпорации «Росатом»,
-                        расположенном
-                        в сети интернет по адресу www.zakupki.rosatom.ru.
-
-                        Официальным сайтом АО КИС «ИСТОК» для размещения информации в рамках исполнения Федерального
-                        закона
-                        № 223-ФЗ является официальный сайт Единой информационной системы в сфере закупок товаров, работ,
-                        услуг для обеспечения государственных и муниципальных нужд, www.zakupki.gov.ru и официальный
-                        сайт о
-                        размещении заказов на закупки товаров, работ и услуг для нужд Госкорпорации «Росатом»,
-                        расположенный
-                        в сети интернет по адресу www.zakupki.rosatom.ru
-
-                        Интерактивная обучающая программа: «Как стать поставщиком атомной отрасли»;
-                        Буклет «Как стать поставщиком атомной отрасли»;
-                        Буклет «Как стать поставщиком атомной отрасли субъекту МСП»
-                        (материалы находятся на официальном сайте о размещении заказов на закупки товаров, работ и услуг
-                        для
-                        нужд Госкорпорации «Росатом» по адресу www.zakupki.rosatom.ru
-                    </p>
-                </div>
-            </div>
-
+    <div class="container">
+        <div class="row">
+            <h1 class="h1-istok">
+                Закупки
+            </h1>
         </div>
-    </div>
+        <div class="row mt-5">
+            {#        <div class="row" style="margin-top: 30px">#}
 
-    <div class="container-istok" style="margin-top:0px;">
-        <div style="width: 1200px;    display: block;  position: relative;">
-            <div class="row">
-                <div class="col">
-
-                </div>
-                <div class="col">
-
-                </div>
+            <h2 class="text-24px-500">Закупочная деятельность в АО&nbspКИС&nbsp«ИСТОК» регламентируется:</h2>
+        </div>
+        <div class="row mt-4">
+            <div class="text-blue-24px-500">
+                Федеральными законами
             </div>
         </div>
+        <div class="row mt-3">
+            {#        <div class="row" style="margin-top: 20px">#}
+            <div class="col-12" style="padding-left: 0">
+                <ul>
+                    <li class="li-corruption">
+                        <span class="text-20px">Федеральный закон от 18.07.2011 №223-ФЗ (ред. от 05.12.2022) “О закупках товаров, работ, услуг отдельными видами юридических лиц”</span>
+                    </li>
+                    <li class="li-corruption">
+                        <span class="text-20px">Федеральный закон от 05.04.2013 №44-ФЗ (ред. от 29.05.2023) “О контрактной системе в сфере закупок товаров, работ, услуг для обеспечения государственных нужд”</span>
+                    </li>
+                    <li class="li-corruption">
+                        <span class="text-20px">Федеральный закон от 29.12.2012 №275-ФЗ (ред. от 03.04.2013) “О Государственном оборонном заказе”</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+                <div class="text-blue-24px-500">Отраслевым стандартом</div>
+                <div class="row mt-3">
+                    {#                <div class="row" style="margin-top: 20px">#}
+                    <div class="col-12" style="padding-left: 0">
+                        <ul>
+                            <li class="li-corruption">
+                                <span class="text-20px">“Единый отраслевой стандарт закупок Госкорпорации Росатом”</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 d-none d-lg-block"></div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                <div class="text-blue-24px-500">Локальными нормативными актами организации</div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 90px">
+            <div class="col-12">
+                <div class="text-16pх-400">
+                    Информация о закупках
+                </div>
+            </div>
+        </div>
+
+        <div class="line-gray" style="margin-top: 20px;"></div>
+
+        <div class="row mt-4">
+            {#        <div class="row" style="margin-top: 30px">#}
+            <div class="col-12 col-md-4 col-lg-3 mb-3 mb-lg-3">
+                <a href="https://zakupki.gov.ru/epz/main/public/home.html" target="_blank"
+                   class="rectangle-block__link">
+                    <div class="rectangle-block">
+                        <span class="rectangle-block__inner_text">www.zakupki.gov.ru</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-1 d-none d-lg-block"></div>
+            <div class="col-12 col-md-4 col-lg-3 mb-3 mb-lg-3">
+                <a href="https://zakupki.rosatom.ru/" target="_blank" class="rectangle-block__link">
+                    <div class="rectangle-block">
+                        <span class="rectangle-block__inner_text">www.zakupki.rosatom.ru</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-1 d-none d-lg-block"></div>
+            <div class="col-12  col-md-4 col-lg-3 mb-3 mb-lg-3">
+                <a href="https://zakupki.gov.ru/epz/main/public/home.html" target="_blank"
+                   class="rectangle-block__link">
+                    <div class="rectangle-block">
+                        <span class="rectangle-block__inner_text">Стать поставщиком <br/>атомной отрасли</span>
+                    </div>
+                </a>
+            </div>
+            {#                    <div class="col-1 d-none d-md-block"></div>#}
+        </div>
+
     </div>
 
 

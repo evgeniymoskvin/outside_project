@@ -49,7 +49,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <h1 class="h3-istok">Акционерное общество <br/>«Компания инжиниринга и строительства «ИСТОК»
+            <h1 class="h1-istok">Акционерное общество <br/>«Компания инжиниринга и строительства «ИСТОК»
             </h1>
         </div>
         <div class="row justify-content-between">
@@ -66,22 +66,31 @@
         </div>
 
         <div class="row">
-            <div class="col-6 col-md-4 col-lg-3 mb-3 mb-lg-3">
-                <div class="rectangle-index-block">
-                    <span class="rectangle-index-block__inner_text">Контакты<br>&nbsp;</span>
-                </div>
+            <div class="col-12 col-sm-4 col-lg-3 mb-3 mb-lg-3">
+                <a href="{% url "company" %}"
+                   class="rectangle-block__link">
+                    <div class="rectangle-block">
+                        <span class="rectangle-block__inner_text">Контакты<br>&nbsp;</span>
+                    </div>
+                </a>
             </div>
             <div class="col-1 d-none d-lg-block"></div>
-            <div class="col-6 col-md-4 col-lg-3 mb-3 mb-lg-3">
-                <div class="rectangle-index-block">
-                    <span class="rectangle-index-block__inner_text">Генеральный <br> Директор</span>
-                </div>
+            <div class="col-12 col-sm-4 col-lg-3 mb-3 mb-lg-3">
+                <a href="{% url 'company' %}"
+                   class="rectangle-block__link">
+                    <div class="rectangle-block">
+                        <span class="rectangle-block__inner_text">Генеральный <br> Директор</span>
+                    </div>
+                </a>
             </div>
             <div class="col-1 d-none d-lg-block"></div>
-            <div class="col-6  col-md-4 col-lg-3 mb-3 mb-lg-3">
-                <div class="rectangle-index-block">
-                    <span class="rectangle-index-block__inner_text">Противодействие <br>коррупции</span>
-                </div>
+            <div class="col-12  col-sm-4 col-lg-3 mb-3 mb-lg-3">
+                <a href="{% url 'company' %}"
+                   class="rectangle-block__link">
+                    <div class="rectangle-block">
+                        <span class="rectangle-block__inner_text">Противодействие <br>коррупции</span>
+                    </div>
+                </a>
             </div>
             {#                    <div class="col-1 d-none d-md-block"></div>#}
         </div>
@@ -101,7 +110,9 @@
                 </div>
             </div>
         </div>
+        <div class="row">
 
+        </div>
         <div class="line-gray" style="height: 1.5px; margin-top: 50px"></div>
         <div class="row" style="margin-top: 40px">
             <div id="owl-carousel-small" class="owl-carousel slide-two">
