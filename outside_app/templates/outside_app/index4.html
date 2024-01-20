@@ -53,47 +53,55 @@
             </h1>
         </div>
         <div class="row justify-content-between">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4" style="margin-top: 31px">
-
-                <span class="text-20px">30 августа 2021 года АО КИС «ИСТОК» стала новой инжиниринговой организацией Госкорпорации «Росатом».</span>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3"
+                 style="margin-top: 31px;">
+                <span class="text-20px">30 августа 2021 года создана инжиниринговая организация Госкорпорации «Росатом» АО КИС «ИСТОК».</span>
             </div>
+            <div class="col-1 d-none d-lg-block"></div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7 mb-5" style="margin-top: 31px">
-                <span class="text-20px">АО КИС «ИСТОК» занимается инженерными изысканиями, инженерно-техническим проектированием,
-                управлением проектами строительства, выполнением строительного контроля и авторского надзора,
-                    предоставлением <br/>технических консультаций в этих областях для организаций атомной отрасли.</span>
+                <span class="text-20px">АО КИС «ИСТОК» занимается инженерными изысканиями, инженерно-<wbr>техническим проектированием, управлением проектами строительства, выполнением строительного контроля и авторского надзора, техническими консультациями для организаций атомной отрасли.
+</span>
             </div>
+            <div class="col-1 d-none d-lg-block"></div>
         </div>
 
-        <div class="row justify-content-between">
-            <div class="col-12 col-sm-12 col-md-auto mb-3 mb-lg-5">
-                <div class="rectangle-index-block">
-                    <span class="rectangle-index-block__inner_text">Генеральный <br> Директор</span>
-                </div>
-            </div>
-            <div class="col-12 col-sm-12 col-md-auto mb-3 mb-lg-5">
-                <div class="rectangle-index-block">
-                    <span class="rectangle-index-block__inner_text">Противодействие <br>коррупции</span>
-                </div>
-            </div>
-            <div class="col-12 col-sm-12 col-md-auto mb-3 mb-lg-5">
+        <div class="row">
+            <div class="col-6 col-md-4 col-lg-3 mb-3 mb-lg-3">
                 <div class="rectangle-index-block">
                     <span class="rectangle-index-block__inner_text">Контакты<br>&nbsp;</span>
                 </div>
             </div>
+            <div class="col-1 d-none d-lg-block"></div>
+            <div class="col-6 col-md-4 col-lg-3 mb-3 mb-lg-3">
+                <div class="rectangle-index-block">
+                    <span class="rectangle-index-block__inner_text">Генеральный <br> Директор</span>
+                </div>
+            </div>
+            <div class="col-1 d-none d-lg-block"></div>
+            <div class="col-6  col-md-4 col-lg-3 mb-3 mb-lg-3">
+                <div class="rectangle-index-block">
+                    <span class="rectangle-index-block__inner_text">Противодействие <br>коррупции</span>
+                </div>
+            </div>
+            {#                    <div class="col-1 d-none d-md-block"></div>#}
         </div>
 
 
         <div class="row justify-content-end" style="margin-top: 170px">
-            <div class="col-12 col-sm-6">
-                <div class="float-start float-sm-end">
-                    <button class="all-news-button">Все новости</button>
-                    <button id='prev-small-carousel' class="ellipse-news-button" onclick="prevSmallCarousel()"> <
-                    </button>
-                    <button id='next-small-carousel' class="ellipse-news-button" onclick="nextSmallCarousel()"> >
-                    </button>
+            <div class="col-12 col-sm-6 ">
+                <div class="float-start float-sm-end align-items-center">
+                    <div style="display: flex; gap: 13px">
+                        <button class="button all-news-button">Все новости</button>
+                        <button id='prev-small-carousel' class="ellipse-news-button-prew" onclick="prevSmallCarousel()"
+                                style="">
+                        </button>
+                        <button id='next-small-carousel' class="ellipse-news-button-next" onclick="nextSmallCarousel()">
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
+
         <div class="line-gray" style="height: 1.5px; margin-top: 50px"></div>
         <div class="row" style="margin-top: 40px">
             <div id="owl-carousel-small" class="owl-carousel slide-two">
