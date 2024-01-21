@@ -373,17 +373,41 @@
     word-wrap: break-word
 }
 
+.text-32px-700 {
+    font-size: 32px;
+    font-family: "Golos_700", serif;
+    color: #333333;
+    word-wrap: break-word
+}
+
 @media (max-width: 576px) {
     .text-32px-700-blue {
+        font-size: 24px;
+    }
+
+    .text-32px-700 {
         font-size: 24px;
     }
 }
 
 .text-28px-700 {
-    font-size: 24px;
+    font-size: 28px;
     font-family: "Golos_700", serif;
     color: #333333;
     word-wrap: break-word
+}
+
+.text-28px-500 {
+    font-size: 28px;
+    font-family: "Golos_500", serif;
+    color: #333333;
+    word-wrap: break-word
+}
+
+@media (max-width: 576px) {
+    .text-28px-500 {
+        font-size: 24px;
+    }
 }
 
 .text-24px-700 {
@@ -441,6 +465,13 @@
     word-wrap: break-word
 }
 
+.text-20px-blue-500 {
+    font-size: 20px;
+    font-family: "Golos_500", serif;
+    color: #025EA1;
+    word-wrap: break-word
+}
+
 .text-20px-500 {
     font-size: 20px;
     font-family: "Golos_500", serif;
@@ -458,6 +489,10 @@
     }
 
     .text-20px-blue {
+        font-size: 16px;
+    }
+
+    .text-20px-blue-500 {
         font-size: 16px;
     }
 }
@@ -530,17 +565,20 @@
 }
 
 .number {
-    width: 54px;
+    /*width: 54px;*/
     display: flex;
     color: #025EA1;
     font-size: 54px;
-    font-family: "Golos_700", serif;
+    font-family: "Rosatom", serif;
+    font-weight: 700;
+    margin-right: 25px;
 }
 
 .number-text {
     display: flex;
     flex-direction: column;
     margin-top: 12px;
+    justify-content: start;
 }
 
 .number-description-title {
@@ -613,6 +651,25 @@
     margin-left: 50px;
 }
 
+.approve {
+    position: absolute;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    z-index: -1;
+    margin-left: -70px;
+    margin-top: -85px;
+}
+
+.approve img {
+    height: 480px;
+}
+
+@media (min-width: 0) and (max-width: 575px) {
+    .approve img {
+        height: 240px;
+    }
+}
+
 .li-arrow {
     display: flex;
     align-items: center;
@@ -629,6 +686,26 @@
     margin-right: 50px;
     flex-shrink: 0;
 }
+
+
+.li-approve {
+    display: flex;
+    align-items: center;
+}
+
+.li-approve:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.li-approve::before {
+    content: url('../images/li_approve.svg');
+    width: 17px;
+    height: 12px;
+    margin-right: 37px;
+    flex-shrink: 0;
+}
+
+
 
 .text-blue-16px-500 {
     font-size: 16px;
