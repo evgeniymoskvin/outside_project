@@ -1104,10 +1104,8 @@
 
 .career_img_block__image {
     display: flex;
+    width: 100%;
     justify-content: center;
-    width: 85px;
-    height: 60px;
-
 }
 
 .career_img_block__text {
