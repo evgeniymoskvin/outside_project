@@ -33,9 +33,16 @@ class CompanyView(View):
     def get(self, request):
         return render(request, 'outside_app/company.html')
 
+
 class GridView(View):
     def get(self, request):
         return render(request, 'outside_app/grid.html')
+
+
 class MapView(View):
+    def get(self, request):
+        return render(request, 'outside_app/map2.html')
+
+class MapView2(View):
     def get(self, request):
         return render(request, 'outside_app/map.html')

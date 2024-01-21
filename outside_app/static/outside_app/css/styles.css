@@ -333,6 +333,54 @@
     min-height: 100%
 }
 
+
+/*Карта*/
+.map {
+}
+
+.map_region {
+    fill: #C4DEF4;
+    stroke: #eee;
+    stroke-width: 10;
+}
+
+.map_region:hover {
+    fill: #a7cfee;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.map_marker {
+    scale: 22;
+    fill: #025ea1;
+    stroke: #eee;
+    stroke-width: .25;
+}
+
+.map_marker:hover {
+    fill: #a10202;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.map_city_info {
+    display: none;
+    margin-left: 220px;
+    margin-top: 250px;
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    background: white;
+    border-radius: 10px;
+    border: 1.50px #32CA7A solid;
+    padding: 25px;
+    align-content: space-between;
+}
+
+
+
+/*Текст*/
+
 .text-span {
     font-size: 14px;
     font-family: "Rosatom", serif;
@@ -516,6 +564,13 @@
     word-wrap: break-word
 }
 
+.text-16pх-700 {
+    font-size: 16px;
+    font-family: "Golos_700", serif;
+    color: #333333;
+    word-wrap: break-word
+}
+
 .text-13pх-400 {
     font-size: 13px;
     font-family: "Golos_400", serif;
@@ -656,11 +711,12 @@
 
 .question {
     margin-top: 100px;
+    margin-left: 50px;
     position: absolute;
     background-repeat: no-repeat;
     height: 400px;
     z-index: -1;
-    margin-left: 50px;
+
 }
 
 .approve {
@@ -1104,7 +1160,6 @@
 
     }
 }
-
 
 
 @media (min-width: 1200px) {

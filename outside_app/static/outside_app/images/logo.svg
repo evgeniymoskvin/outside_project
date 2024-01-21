@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 185.5 83.5">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .04em;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        letter-spacing: .07em;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-5 {
+        fill: #11559b;
+        font-size: 14.49px;
+      }
+
+      .cls-5, .cls-6 {
+        font-family: Rosatom-Regular, Rosatom;
+      }
+
+      .cls-7 {
+        letter-spacing: .08em;
+      }
+
+      .cls-8 {
+        letter-spacing: .09em;
+      }
+
+      .cls-9 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-10, .cls-6 {
+        fill: #3c3c3b;
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-12 {
+        letter-spacing: .1em;
+      }
+
+      .cls-13 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-14 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-15 {
+        letter-spacing: .1em;
+      }
+
+      .cls-6 {
+        font-size: 18.09px;
+      }
+
+      .cls-16 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-17 {
+        letter-spacing: .1em;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="-5293.52" cy="3797.25" fx="-5293.52" fy="3797.25" r="87.86" gradientTransform="translate(782.08 -497.35) rotate(-.06) scale(.14)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a96d2"/>
+      <stop offset="1" stop-color="#1f2466"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="12.14" y1="35.85" x2="32.9" y2="3.89" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a96d2"/>
+      <stop offset="1" stop-color="#1f2466"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="20.43" y1="-.99" x2="72" y2="19.85" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="-6741.49" y1="-8281.31" x2="-6720.74" y2="-8313.28" gradientTransform="translate(3852.53 -9908.62) rotate(-120)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="-6733.21" y1="-8318.15" x2="-6681.64" y2="-8297.31" gradientTransform="translate(3852.53 -9908.62) rotate(-120)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="3838.2" y1="-9971.55" x2="3858.96" y2="-10003.52" gradientTransform="translate(-6654.86 -8290.7) rotate(120)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="3846.49" y1="-10008.39" x2="3898.06" y2="-9987.55" gradientTransform="translate(-6654.86 -8290.7) rotate(120)" xlink:href="#linear-gradient"/>
+  </defs>
+  <g>
+    <path class="cls-9" d="m48.27,47.63c-3.25,3.6-8.79,3.88-12.39.63-3.6-3.24-3.89-8.79-.65-12.39,3.25-3.6,8.79-3.88,12.39-.63,3.6,3.24,3.88,8.79.64,12.39Z"/>
+    <path class="cls-14" d="m16.64,8.4c-5.74,4.33-10.32,10.1-13.22,16.78,3.47.86,13.86,4.24,18.62,17.1,1.43-.47,4.52-2.27,6.67-9.22,2.87-9.31,8.33-18.26,15.4-21.27-7.05-6.98-16.34-8.62-27.47-3.4Z"/>
+    <path class="cls-2" d="m73.9,15.13s0,0,0,0C66.25,5.89,54.69,0,41.75,0c-9.43,0-18.12,3.13-25.11,8.4,15.45-7.25,27.36-1.27,34.65,13.85,11.62,2.08,19.5-3.7,22.61-7.12Z"/>
+    <path class="cls-13" d="m25.43,80.17c6.62,2.81,13.91,3.89,21.14,3.05-.99-3.43-3.26-14.12,5.5-24.68-1.12-1.01-4.23-2.78-11.32-1.16-9.5,2.16-19.98,1.92-26.12-2.7-2.52,9.6.71,18.47,10.79,25.49Z"/>
+    <path class="cls-16" d="m2.62,27.21s0,0,0,0c-4.17,11.25-3.49,24.21,2.98,35.41,4.71,8.16,11.77,14.13,19.83,17.55-14-9.76-14.78-23.06-5.34-36.94-4-11.1-12.95-15.04-17.47-16.03Z"/>
+    <path class="cls-11" d="m83.19,36.67c-.88-7.13-3.59-13.99-7.93-19.84-2.48,2.58-10.6,9.88-24.12,7.58-.31,1.47-.3,5.05,4.65,10.38,6.62,7.14,11.65,16.34,10.72,23.97,9.57-2.62,15.64-9.85,16.68-22.1Z"/>
+    <path class="cls-4" d="m48.73,82.91s0,0,0,0c11.83-2.01,22.71-9.08,29.17-20.29,4.71-8.16,6.36-17.26,5.29-25.95-1.45,17.01-12.58,24.33-29.32,23.09-7.61,9.02-6.55,18.74-5.14,23.14Z"/>
+  </g>
+  <rect class="cls-10" x="96.25" y="8.77" width=".84" height="65.97"/>
+  <text class="cls-6" transform="translate(108.53 37.97)"><tspan class="cls-15" x="0" y="0">ИС</tspan><tspan class="cls-7" x="27.77" y="0">Т</tspan><tspan class="cls-17" x="39.06" y="0">ОК</tspan></text>
+  <text class="cls-5" transform="translate(108.53 57.42)"><tspan class="cls-8" x="0" y="0">РО</tspan><tspan class="cls-12" x="22.15" y="0">С</tspan><tspan class="cls-1" x="32.62" y="0">А</tspan><tspan class="cls-3" x="42.46" y="0">Т</tspan><tspan class="cls-8" x="51.35" y="0">ОМ</tspan></text>
+</svg>
