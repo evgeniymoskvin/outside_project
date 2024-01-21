@@ -69,11 +69,11 @@ $(document).ready(function () {
             }
         },
         navText: [
-            "<a class='carousel-control-prev' href='#owl-carousel-title' role='button' data-slide='prev'>" +
+            "<a class='carousel-control-prev' href='#' role='button' data-slide='prev'>" +
             "<span class = 'carousel-control-prev-icon' aria-hidden = 'true'>" +
             "</span>" +
             "</a>",
-            "<a class='carousel-control-next' href='#owl-carousel-title' role='button' data-slide='next'>" +
+            "<a class='carousel-control-next' href='#' role='button' data-slide='next'>" +
             "<span class='carousel-control-next-icon' aria-hidden='true'>" +
             "</span>" +
             "</a>"

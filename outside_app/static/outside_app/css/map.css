@@ -1,0 +1,42 @@
+.map{
+    height: 500px;
+    width: auto;
+}
+
+.map_item{
+        fill: #9a0a0f;
+    stroke: #eee;
+    stroke-width: .25;
+}
+
+/*.map svg path {*/
+/*    fill: #6dab8e;*/
+/*    stroke: #eee;*/
+/*    stroke-width: .25;*/
+/*}*/
+
+.fil3 {
+    fill: #410c18;
+    stroke: #eee;
+    stroke-width: .25;
+}
+
+.map svg path:hover {
+    fill: #4f7bbe;
+    transition: 0.6s;
+    cursor: pointer;
+
+}
+
+#kanev, #kurgan, #timash {
+    opacity: 0;
+    position: absolute;
+    top: 0;;
+    right: 0;
+    width: 280px;
+    max-width: 100%;
+    height: auto;
+    background: rgba(220, 240, 250, 0.7);
+    border-radius: 20px;
+    padding: 20px;
+}

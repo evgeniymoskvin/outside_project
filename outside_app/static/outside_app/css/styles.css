@@ -1096,25 +1096,16 @@
 
 @media (min-width: 576px) {
     .item {
-        height: 250px;
+        height: 350px;
     }
 
     .item img {
-        height: 250px;
+        height: 350px;
 
     }
 }
 
-@media (min-width: 768px) {
-    .item {
-        height: 330px;
-    }
 
-    .item img {
-        height: 330px;
-
-    }
-}
 
 @media (min-width: 1200px) {
     .item {
