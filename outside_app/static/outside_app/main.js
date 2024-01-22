@@ -121,3 +121,48 @@ function nextSmallCarousel() {
     var smallCarousel = $('.slide-two')
     smallCarousel.trigger('next.owl.carousel');
 }
+
+
+function clickMoscowMarker() {
+    if ($('#moscow').css('display') === 'none') {
+        document.getElementById('moscow').style.display = 'flex'
+        document.getElementById('saint-petersburg').style.display = 'none'
+        document.getElementById('ozersk').style.display = 'none'
+        document.getElementById('lesnoy').style.display = 'none'
+    } else {
+        document.getElementById('moscow').style.display = 'none'
+    }
+}
+
+function clickSaintPMarker() {
+    if ($('#saint-petersburg').css('display') === 'none') {
+        document.getElementById('saint-petersburg').style.display = 'flex'
+        document.getElementById('moscow').style.display = 'none'
+        document.getElementById('ozersk').style.display = 'none'
+        document.getElementById('lesnoy').style.display = 'none'
+    } else {
+        document.getElementById('saint-petersburg').style.display = 'none'
+    }
+}
+
+function clickOzerskMarker() {
+    if ($('#ozersk').css('display') === 'none') {
+        document.getElementById('ozersk').style.display = 'flex'
+        document.getElementById('moscow').style.display = 'none'
+        document.getElementById('saint-petersburg').style.display = 'none'
+        document.getElementById('lesnoy').style.display = 'none'
+    } else {
+        document.getElementById('ozersk').style.display = 'none'
+    }
+}
+
+function clickLesnoyMarker() {
+    if ($('#lesnoy').css('display') === 'none') {
+        document.getElementById('lesnoy').style.display = 'flex'
+        document.getElementById('moscow').style.display = 'none'
+        document.getElementById('saint-petersburg').style.display = 'none'
+        document.getElementById('ozersk').style.display = 'none'
+    } else {
+        document.getElementById('lesnoy').style.display = 'none'
+    }
+}

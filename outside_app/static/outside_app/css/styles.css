@@ -364,13 +364,8 @@
 }
 
 .map_city_info {
-    opacity: 0.85;
+    opacity: 1;
     display: none;
-    margin-left: 220px;
-    margin-top: 250px;
-    position: absolute;
-    width: 500px;
-    height: 250px;
     background: white;
     border-radius: 10px;
     border: 1.50px #32CA7A solid;
@@ -379,6 +374,53 @@
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.24), 0 10px 15px 0 rgba(0, 0, 0, 0.19);
 }
 
+#moscow {
+    width: 500px;
+    height: 250px;
+    margin-left: 220px;
+    margin-top: 250px;
+    position: absolute;
+}
+
+#saint-petersburg {
+    width: 500px;
+    height: 250px;
+    margin-left: 260px;
+    margin-top: 130px;
+    position: absolute;
+}
+
+#ozersk {
+    width: 550px;
+    height: 270px;
+    margin-left: 380px;
+    margin-top: 230px;
+    position: absolute;
+}
+
+#lesnoy {
+    width: 520px;
+    height: 250px;
+    margin-left: 410px;
+    margin-top: 130px;
+    position: absolute;
+}
+
+.close_button {
+    -webkit-mask-image: url('../images/close.svg');
+    mask-image: url('../images/close.svg');
+    /*background: url('../images/list.svg');*/
+    background-color: #32CA7A;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.close_button:hover {
+    background-color: #333333;
+}
 
 /*Текст*/
 
