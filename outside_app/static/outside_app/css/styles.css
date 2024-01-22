@@ -346,8 +346,8 @@
 
 .map_region:hover {
     fill: #a7cfee;
-    transition: 0.6s;
-    cursor: pointer;
+    transition: 0.2s;
+    /*cursor: pointer;*/
 }
 
 .map_marker {
@@ -358,12 +358,13 @@
 }
 
 .map_marker:hover {
-    fill: #a10202;
-    transition: 0.6s;
+    fill: #32CA7A;
+    transition: 0.2s;
     cursor: pointer;
 }
 
 .map_city_info {
+    opacity: 0.85;
     display: none;
     margin-left: 220px;
     margin-top: 250px;
@@ -375,8 +376,8 @@
     border: 1.50px #32CA7A solid;
     padding: 25px;
     align-content: space-between;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.24), 0 10px 15px 0 rgba(0, 0, 0, 0.19);
 }
-
 
 
 /*Текст*/
