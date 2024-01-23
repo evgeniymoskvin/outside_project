@@ -46,3 +46,7 @@ class MapView(View):
 class MapView2(View):
     def get(self, request):
         return render(request, 'outside_app/map.html')
+
+class InformModel(View):
+    def get(self, request):
+        return render(request, 'outside_app/inform_model.html')

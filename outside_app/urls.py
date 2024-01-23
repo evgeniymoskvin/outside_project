@@ -11,4 +11,5 @@ urlpatterns = [
     path('grid', views.GridView.as_view(), name='grid'),
     path('map', views.MapView.as_view(), name='map'),
     path('map2', views.MapView2.as_view(), name='map2'),
+    path('inform_model', views.InformModel.as_view(), name='inform_model'),
 ]

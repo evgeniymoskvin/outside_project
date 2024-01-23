@@ -80,6 +80,28 @@
 
 }
 
+.content-fade {
+    scroll-behavior: smooth;
+    animation: fade-in 1s ease;
+    transition: opacity 0.5s ease;
+}
+
+
+body {
+    animation: fadeInAnimation ease 0.7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 
 .header {
     display: flex;
@@ -224,7 +246,7 @@
     }
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 991px) {
     .navigation-root {
         display: none;
     }
@@ -264,7 +286,7 @@
 }
 
 
-@media (max-width: 1059px) {
+@media (max-width: 991px) {
     .navigation-toggle-link {
         display: flex;
     }
@@ -290,7 +312,7 @@
     z-index: 1;
 }
 
-@media (max-width: 1059px) {
+@media (max-width: 991px) {
     .navigation-list-item {
         background: white;
         padding-left: 40px;
@@ -406,6 +428,74 @@
     position: absolute;
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+    #moscow {
+        margin-left: 170px;
+        margin-top: 170px;
+    }
+
+    #saint-petersburg {
+        margin-left: 180px;
+        margin-top: 90px;
+    }
+
+    #ozersk {
+        margin-left: 270px;
+        margin-top: 250px;
+    }
+
+    #lesnoy {
+        margin-left: 300px;
+        margin-top: 220px;
+    }
+
+    .map_marker {
+        scale: 30;
+    }
+
+    #moscow_marker {
+        transform: matrix(1, 0, 0, 1, 2800, 3900)
+    }
+
+    #saint_p_marker {
+        transform: matrix(1, 0, 0, 1, 3250, 2200)
+    }
+}
+
+@media (min-width: 1199px) and (max-width: 1399px) {
+    #moscow {
+        margin-left: 190px;
+        margin-top: 220px;
+    }
+
+    #saint-petersburg {
+        margin-left: 220px;
+        margin-top: 110px;
+    }
+
+    #ozersk {
+        margin-left: 320px;
+        margin-top: 230px;
+    }
+
+    #lesnoy {
+        margin-left: 350px;
+        margin-top: 130px;
+    }
+
+    .map_marker {
+        scale: 26;
+    }
+
+    #moscow_marker {
+        transform: matrix(1, 0, 0, 1, 2800, 4000)
+    }
+
+    #saint_p_marker {
+        transform: matrix(1, 0, 0, 1, 3250, 2400)
+    }
+}
+
 .close_button {
     -webkit-mask-image: url('../images/close.svg');
     mask-image: url('../images/close.svg');
@@ -437,6 +527,18 @@
     font-family: "Golos_700", serif;
     word-wrap: break-word;
     margin-top: 28px;
+}
+
+.h1-istok_index {
+    color: #333333;
+    font-size: 40px;
+    font-family: "Golos_700", serif;
+    word-wrap: break-word;
+    margin-top: 28px;
+}
+
+#direction {
+    margin-top: 50px;
 }
 
 .h4-istok {
@@ -492,6 +594,14 @@
     word-wrap: break-word
 }
 
+.text-26px-700-blue {
+    font-size: 28px;
+    color: #025EA1;
+    font-family: "Golos_700", serif;
+    /*color: #333333;*/
+    word-wrap: break-word
+}
+
 .text-28px-500 {
     font-size: 28px;
     font-family: "Golos_500", serif;
@@ -526,6 +636,12 @@
     word-wrap: break-word
 }
 
+.text-24px-400-blue {
+    font-size: 24px;
+    font-family: "Golos_400", serif;
+    color: #6CACE4;
+    word-wrap: break-word
+}
 
 @media (max-width: 576px) {
     .text-24px-700 {
@@ -537,6 +653,10 @@
     }
 
     .text-24px-400 {
+        font-size: 20px;
+    }
+
+    .text-24px-400-blue {
         font-size: 20px;
     }
 }
@@ -805,7 +925,7 @@
 }
 
 .li-approve:not(:last-child) {
-    margin-bottom: 8px;
+    margin-bottom: 20px;
 }
 
 .li-approve::before {
@@ -900,6 +1020,24 @@
 
 /*Прямоугольники на главной*/
 
+
+#index_buttons {
+    margin-top: 80px
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+    #index_buttons {
+        margin-top: 30px
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    #news_block {
+        margin-top: 60px
+    }
+}
+
+
 .rectangle-block {
     background-color: transparent;
     display: flex;
@@ -960,6 +1098,16 @@
 
 
 /*Блок кнопок новостей*/
+
+#news_block {
+    margin-top: 170px
+}
+
+@media (max-width: 992px) {
+    #news_block {
+        margin-top: 80px
+    }
+}
 
 .all-news-button {
     margin-top: 0;
@@ -1228,45 +1376,60 @@
 }
 
 /*Блоки направлений*/
+.direction-block_all {
+    border-radius: 16px 16px 16px 16px;
+    transition: 0.15s ease-in-out;
+}
+
+.direction-block_all:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
 
 
 .direction-block__header {
     display: flex;
     width: 100%;
     height: 100px;
-    background: #025EA1;
-    border: 1px #E9F5FF solid;
+    /*background: #025EA1;*/
+    /*border: 1px #E9F5FF solid;*/
     border-radius: 16px 16px 0 0;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    /*padding-left: 20px;*/
+    /*padding-right: 20px;*/
+    /*padding-bottom: 20px;*/
+}
+
+.direction-block__header img {
+    border-radius: 16px 16px 0 0;
+    width: 100%;
+    object-fit: cover;
 }
 
 .direction-block {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 315px;
+    min-height: 380px;
     background: #F2F5F8;
-    border: 1px #E9F5FF solid;
+    /*border: 1px #F2F5F8 solid;*/
     border-radius: 0 0 16px 16px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
 }
 
 .direction-block__title {
-    margin-top: 20px;
+    margin-top: 18px;
     display: flex;
 }
 
 .direction-block__text {
-    margin-top: 20px;
+    margin-top: 16px;
     display: flex;
 }
 
 .li-direction {
     color: #6CACE4;
+    margin-top: 10px;
     /*margin-bottom: 26px;*/
 }
 
@@ -1294,4 +1457,24 @@
     font-size: 16px;
     font-family: "Golos_400", serif;
     color: #333333;
+}
+
+.content-napr-width {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_napr {
+    display: flex;
+    height: 320px;
+    width: 100%;
+}
+
+.item_napr img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
 }

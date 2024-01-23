@@ -1,0 +1,99 @@
+{% extends 'outside_app/base.html' %}
+{% load static %}
+
+{% block title %}
+    Направления деятельности
+{% endblock %}
+
+{% block content %}
+    <div class="content-napr-width" style="height: 320px">
+        <div class="item_napr">
+            <img src="{% static 'outside_app/img/slideshow/1.jpg' %}">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <h1 class="h1-istok" id="direction">
+                Информационное моделирование
+            </h1>
+        </div>
+
+        {#        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6" style="margin-top: 30px">#}
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-4">
+                <div class="text-24px-400">АО КИС “ИСТОК” разрабатывает информационные модели объектов использования
+                    атомной
+                    энергии.
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-4">
+            <div class="text-24px-400-blue">Преимущества разработки информационной модели
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 mt-4">
+                <ul style="padding-left: 0">
+                    <li class="li-approve">
+                        <span class="text-20px">Использование информационной модели на всех стадиях жизненного цикла объекта</span>
+                    </li>
+                    <li class="li-approve">
+                        <span class="text-20px">Использование информационной модели десятки лет</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 mt-4">
+                <ul style="padding-left: 0">
+                    <li class="li-approve">
+                        <span class="text-20px">Отказ от импортного ПО, без потери качества информационной модели и сохранении всего необходимого функционала</span>
+                    </li>
+                    <li class="li-approve">
+                        <span class="text-20px">Использование информационной модели десятки лет</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 mt-4">
+                <ul style="padding-left: 0">
+                    <li class="li-approve">
+                        <span class="text-20px">Модульный принцип, построения модели с возможностью замены программных модулей по мере необходимости</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 80px">
+            <div class="col-12">
+                <div class="text-24px-400">Основа создания информационных моделей – концепция единого информационного
+                    пространства, СУИД отечественной разработки НЕОСИНТЕЗ (ф. НЕОЛАНТ):
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5 mt-3">
+                <ul>
+                            <li class="li-direction">
+                                <span class="text-20px">Взаимозаменяемые модули, предназначенные для проектирования на стадиях ПД и РД
+</span>
+                            </li>
+                            <li class="li-direction">
+                                <span class="text-20px">Модуль интеграции проектных решений и поиска коллизий
+</span>
+                            </li>
+                            <li class="li-direction">
+                                <span class="text-20px">Модуль информационной модели (СУИД)</span>
+                            </li>
+                    <li class="li-direction">
+                                <span class="text-20px">Модули электронного документооборота, управления проектом и электронного архива
+</span>
+                            </li>
+                        </ul>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}

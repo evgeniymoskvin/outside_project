@@ -1,4 +1,5 @@
 {% extends 'outside_app/base.html' %}
+{% load static %}
 
 {% block title %}
     Направления деятельности
@@ -12,41 +13,126 @@
             </h1>
         </div>
         <div class="row mt-1">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 mt-4">
-                <div class="direction-block__header"></div>
-                <div class="direction-block">
-                    <div class="direction-block__title">
-                        <h4 class="text-32px-700-blue">Инженерные изыскания</h4>
-                    </div>
-                    <div class="direction-block__text">
-                        <ul>
-                            <li class="li-direction">
-                                <span class="text-20px-blue">Текст</span>
-                            </li>
-                            <li class="li-direction">
-                                <span class="text-20px-blue">Текст</span>
-                            </li>
-                            <li class="li-direction">
-                                <span class="text-20px-blue">Текст</span>
-                            </li>
-                            <li class="li-direction">
-                                <span class="text-20px-blue">Текст</span>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 mt-4">
+                <div class="direction-block_all">
+                    <a class="rectangle-block__link" href="{% url 'inform_model' %}">
+                        <div class="direction-block__header">
+                            <img src="{% static 'outside_app/img/slideshow/1.jpg' %}">
+                        </div>
+                        <div class="direction-block">
+                            <div class="direction-block__title">
+                                <h4 class="text-26px-700-blue">Комплексное проектирование</h4>
+                            </div>
+                            <div class="direction-block__text">
+                                <ul>
+                                    <li class="li-direction">
+                                <span class="text-20px">Комплексное проектирование строительства и реконструкции,
+                                    в том числе объектов отрасли, морских портов, гидротехнических сооружений, плавучих АЭС
+</span>
+                                    </li>
+                                    <li class="li-direction">
+                                        <span class="text-20px">Выполнение предпроектных и проектно-изыскательских работ по сооружению, реконструкции и капитальному ремонту</span>
+                                    </li>
+                                    <li class="li-direction">
+                                        <span class="text-20px">Выполнение функций генерального проектировщика по разработке предпроектной, проектной, рабочей и иной </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 mt-4">
-                <div class="direction-block__header"></div>
-                <div class="direction-block"></div>
+            {#            <div class="col-1 d-none d-lg-block d-xl-none"></div>#}
+            {#            <div class="col-2 d-none d-xl-block"></div>#}
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 mt-4">
+                <div class="direction-block_all">
+                    <a class="rectangle-block__link" href="{% url 'inform_model' %}">
+                        <div class="direction-block__header">
+                            <img src="{% static 'outside_app/img/slideshow/2.jpg' %}">
+                        </div>
+                        <div class="direction-block">
+                            <div class="direction-block__title">
+                                <h4 class="text-26px-700-blue">Инженерные изыскания
+                                </h4>
+                            </div>
+                            <div class="direction-block__text">
+                                <ul>
+                                    <li class="li-direction">
+                                <span class="text-20px">Комплексное проектирование строительства и реконструкции,
+                                    в том числе объектов отрасли, морских портов, гидротехнических сооружений, плавучих АЭС
+</span>
+                                    </li>
+                                    <li class="li-direction">
+                                        <span class="text-20px">Выполнение предпроектных и проектно-изыскательских работ по сооружению, реконструкции и капитальному ремонту</span>
+                                    </li>
+                                    <li class="li-direction">
+                                        <span class="text-20px">Выполнение функций генерального проектировщика по разработке предпроектной, проектной, рабочей и иной </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 mt-4">
-                <div class="direction-block__header"></div>
-                <div class="direction-block"></div>
+            {#            <div class="col-1 d-none d-lg-block d-xl-none"></div>#}
+            {#            <div class="col-2 d-none d-xl-block"></div>#}
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 mt-4">
+                <div class="direction-block_all">
+                    <a class="rectangle-block__link" href="{% url 'inform_model' %}">
+                        <div class="direction-block__header">
+                            <img src="{% static 'outside_app/img/slideshow/3.jpg' %}">
+                        </div>
+                        <div class="direction-block">
+                            <div class="direction-block__title">
+                                <h4 class="text-26px-700-blue">Информационное моделирование</h4>
+                            </div>
+                            <div class="direction-block__text">
+                                <ul>
+                                    <li class="li-direction">
+                                <span class="text-20px">Комплексное проектирование строительства и реконструкции,
+                                    в том числе объектов отрасли, морских портов, гидротехнических сооружений, плавучих АЭС
+</span>
+                                    </li>
+                                    <li class="li-direction">
+                                        <span class="text-20px">Выполнение предпроектных и проектно-изыскательских работ по сооружению, реконструкции и капитальному ремонту</span>
+                                    </li>
+                                    <li class="li-direction">
+                                        <span class="text-20px">Выполнение функций генерального проектировщика по разработке предпроектной, проектной, рабочей и иной </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 mt-4">
-                <div class="direction-block__header"></div>
-                <div class="direction-block"></div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 mt-4 h-100">
+                <div class="direction-block_all">
+                    <a class="rectangle-block__link" href="{% url 'inform_model' %}">
+                        <div class="direction-block__header">
+                            <img src="{% static 'outside_app/img/slideshow/1.jpg' %}">
+                        </div>
+                        <div class="direction-block">
+                            <div class="direction-block__title">
+                                <h4 class="text-26px-700-blue">Строительство
+                                </h4>
+                            </div>
+                            <div class="direction-block__text">
+                                <ul>
+                                    <li class="li-direction">
+                                        <span class="text-20px">Оказание услуг генерального подрядчика по строительству, реконструкции и капитальному ремонту</span>
+                                    </li>
+                                    <li class="li-direction">
+                                        <span class="text-20px">Выполнение строительных, монтажных и пусконаладочных работ, работ по реконструкции и капитальному ремонту</span>
+                                    </li>
+                                    <li class="li-direction">
+                                <span class="text-20px">Поставка оборудования
+</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
 
