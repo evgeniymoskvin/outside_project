@@ -1423,7 +1423,7 @@ body {
 }
 
 .direction-block__text {
-    margin-top: 16px;
+    /*margin-top: 16px;*/
     display: flex;
 }
 
@@ -1433,6 +1433,11 @@ body {
     /*margin-bottom: 26px;*/
 }
 
+.li-direction:before {
+    color: #6CACE4;
+    margin-top: 0;
+    /*margin-bottom: 26px;*/
+}
 /*Блоки с картинкой на странице карьеры*/
 
 .career_img_block {
