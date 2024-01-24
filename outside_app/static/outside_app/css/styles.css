@@ -866,11 +866,19 @@ body {
 
 }
 
+
 .li-corruption {
     color: #6CACE4;
     margin-bottom: 10px;
-    padding-left: 23px;
+    padding-left: 20px;
 }
+
+/*.li-corruption:before {*/
+/*    color: #6CACE4;*/
+/*    margin-bottom: 10px;*/
+/*    padding-left: 23px;*/
+/*}*/
+
 
 .question {
     margin-top: 100px;
@@ -1096,7 +1104,7 @@ body {
 
 @media (min-width: 1200px) and (max-width: 1400px) {
     .rectangle-block__inner_text {
-        font-size: 16px;
+        font-size: 20px;
     }
 }
 
@@ -1381,6 +1389,7 @@ body {
 
 /*Блоки направлений*/
 .direction-block_all {
+    display: flex;
     border-radius: 16px 16px 16px 16px;
     transition: 0.15s ease-in-out;
 }
@@ -1432,8 +1441,9 @@ body {
 }
 
 .li-direction {
-    color: #6CACE4;
+    color: #333333;
     margin-top: 10px;
+    line-height: 1.25;
     /*margin-bottom: 26px;*/
 }
 
@@ -1443,6 +1453,23 @@ body {
     /*margin-bottom: 26px;*/
 }
 
+@media (min-width: 0px) and (max-width: 991px) {
+
+    .direction-block {
+        min-height: 280px;
+        overflow: hidden;
+    }
+
+    .li-direction {
+        font-size: 16px;
+    }
+
+    #hidden_li_direction_item {
+        display: none;
+    }
+}
+
+
 /*Блоки с картинкой на странице карьеры*/
 
 .career_img_block {
@@ -1450,6 +1477,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
 }
 
 .career_img_block__image {
@@ -1459,14 +1487,19 @@ body {
 }
 
 .career_img_block__text {
-    margin-top: 20px;
+    margin-top: 16px;
     justify-content: center;
     display: flex;
-    width: 100%;
+    max-width: 100%;
     text-align: center;
     font-size: 16px;
     font-family: "Golos_400", serif;
     color: #333333;
+}
+
+.career_img_block__text__block {
+    display: flex;
+    max-width: 200px
 }
 
 .content-napr-width {
@@ -1476,6 +1509,42 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.career_img_finder {
+    display: flex;
+    height: 275px;
+    width: 100%;
+}
+
+.career_img_finder img {
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    .career_img_finder {
+        height: 245px;
+    }
+
+    .career_img_finder img {
+        height: 245px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .career_img_finder {
+        height: 265px;
+    }
+
+    .career_img_finder img {
+        height: 265px;
+    }
+
+}
+
 
 .item_napr {
     display: flex;
@@ -1487,4 +1556,30 @@ body {
     width: 100%;
     height: 320px;
     object-fit: cover;
+}
+
+#prof_rost {
+    margin-top: 90px
+}
+
+#young_professionals {
+    margin-top: 210px
+}
+
+#targeted_training {
+    margin-top: 210px
+}
+
+@media (max-width: 1119px) {
+    #prof_rost {
+        margin-top: 60px
+    }
+
+    #young_professionals {
+        margin-top: 110px
+    }
+
+    #targeted_training {
+        margin-top: 190px
+    }
 }

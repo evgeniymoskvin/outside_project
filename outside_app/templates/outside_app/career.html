@@ -83,7 +83,9 @@
                         <img src="{% static "outside_app/images/icon/1.svg" %}">
                     </div>
                     <div class="career_img_block__text">
-                        Официальное трудоустройство
+                        <div class="career_img_block__text__block">
+                            Официальное трудоустройство
+                        </div>
                     </div>
                 </div>
             </div>
@@ -93,7 +95,9 @@
                         <img src="{% static "outside_app/images/icon/2.svg" %}">
                     </div>
                     <div class="career_img_block__text">
-                        Конкурентоспособную белую зарплату
+                        <div class="career_img_block__text__block">
+                            Конкурентоспособную белую зарплату
+                        </div>
                     </div>
                 </div>
             </div>
@@ -103,7 +107,9 @@
                         <img src="{% static "outside_app/images/icon/3.svg" %}">
                     </div>
                     <div class="career_img_block__text">
-                        Социальный пакет
+                        <div class="career_img_block__text__block">
+                            Социальный пакет
+                        </div>
                     </div>
                 </div>
             </div>
@@ -113,31 +119,35 @@
                         <img src="{% static "outside_app/images/icon/4.svg" %}">
                     </div>
                     <div class="career_img_block__text">
-                        Прозрачный план карьерного роста
+                        <div class="career_img_block__text__block">
+                            Прозрачный план карьерного роста
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-6 col-xl-2 justify-content-center mt-5 mt-xl-0">
+            <div class="col-12 col-md-6 col-lg-6 col-xl-3 col-xxl-2 justify-content-center mt-5 mt-xl-0">
                 <div class="career_img_block">
                     <div class="career_img_block__image">
                         <img src="{% static "outside_app/images/icon/5.svg" %}">
                     </div>
                     <div class="career_img_block__text">
-                        Участие в российских и международных отраслевых мероприятиях, митапах, конференциях, форумах
+                        <div class="career_img_block__text__block">
+                            Участие в российских и международных отраслевых мероприятиях, митапах, конференциях, форумах
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="row" style="margin-top: 90px">
-                <h4 class="text-24px-700">
-                    Профессиональный рост в компании:
-                </h4>
-            </div>
+
+        <div class="row" id='prof_rost'>
+            <h4 class="text-24px-700">
+                Профессиональный рост в компании:
+            </h4>
         </div>
+
         <div class="row mt-4">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 col-xxl-3">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-3 col-xxl-3">
                 <div>
                     <div class="text-20px-500">Ежедневное общение с квалифицированными специалистами</div>
                 </div>
@@ -150,12 +160,12 @@
                 </div>
             </div>
             <div class="col-lg-1 col-xl-2 d-none d-lg-block"></div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5">
-                <div class="mt-3 mt-lg-0">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-5">
+                <div class="mt-3 mt-md-0">
                     <span class="text-20px-500">Программы обучения</span>
                 </div>
                 <div class="mt-3">
-                    <ul>
+                    <ul style="padding-left: 12px">
                         <li class="li-corruption">
                             <span class="text-20px">Внешние и внутриотраслевые:<br/>“Корпоративная академия Росатом” “Техническая академия Росатом”</span>
                         </li>
@@ -170,7 +180,7 @@
         </div>
 
 
-        <div class="row" style="margin-top: 210px">
+        <div class="row" id='young_professionals'>
             <h3 class="text-32px-700">
                 Молодым специалистам
             </h3>
@@ -185,7 +195,7 @@
             </h3>
         </div>
         <div class="row mt-4">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-5">
                 <div class="text-20px">
                     Для студентов и выпускников высших учебных заве&shy;дений действуют программы стажировок и практик.
                 </div>
@@ -195,7 +205,7 @@
                 </div>
             </div>
             <div class="col-1 d-none d-lg-block"></div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-5 col-xxl-5 mt-3 mt-lg-0">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5 col-xxl-5 mt-3 mt-md-0">
                 <div class="text-20px">Прохождение практики официально засчитывается в профильных вузах, по результатам
                     стажировки у стажирующегося есть возможность получить работу в АО&nbspКИС&nbsp«ИСТОК».
                 </div>
@@ -203,7 +213,8 @@
             <div class="col-1 d-none d-xl-block"></div>
         </div>
 
-        <div class="row" style="margin-top: 210px">
+
+        <div class="row" id="targeted_training">
             <h3 class="text-32px-700">
                 Целевое обучение
             </h3>
@@ -258,9 +269,9 @@
         </div>
 
 
-        <div class="row mt-4">
+        <div class="row mt-5 mt-lg-4">
 
-            <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4 col-xxl-4">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                 <div class="text-20px">
                     <ul style="padding-left: 0">
                         <li class="li-approve">
@@ -275,8 +286,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-1 col-xl-2 d-none d-lg-block"></div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4 col-xxl-4">
+            <div class="col-lg-1 col-xl-2 d-none d-xl-block"></div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                 <div class="text-20px">
                     <ul style="padding-left: 0">
                         <li class="li-approve">
@@ -288,7 +299,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-2 col-xl-2 d-none d-lg-block"></div>
+            <div class="col-lg-2 col-xl-2 d-none d-xl-block"></div>
         </div>
 
         <div class="row" style="margin-top: 110px">
@@ -297,24 +308,31 @@
             </h3>
         </div>
 
-        <div class="row mt-4">
-            <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xl-4 col-xxl-4">
-                <img style="width: 100%" src="{% static 'outside_app/images/Rectangle 13.png' %}">
+        <div class="row mt-4 flex-column-reverse flex-lg-row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-4 ">
+                <div class="career_img_finder mt-4 mt-4 mt-lg-0">
+                    <img style="width: 100%" src="{% static 'outside_app/images/Rectangle 13.png' %}">
+                </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-7 col-lg-8 col-xl-8 col-xxl-8 mt-4 mt-lg-0">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-8 mt-4 mt-lg-0">
                 <div class="row align-content-between h-100">
-                    <div>
-                        <div class="text-20px-500">
-                            Хотите стать частью нашей команды?
+                    <div class="row align-content-between">
+                        <div class="col-6 col-lg-12">
+                            <div class="text-20px-500">
+                                Хотите стать частью нашей команды?
+                            </div>
+
+                            <div class="text-20px mt-3">
+                                {#                        <div class="text-20px" style="margin-top: 20px">#}
+                                Для трудоустройства, прохождения <br>практики, стажировок и целевого набора
+                            </div>
                         </div>
-                        <div class="text-20px mt-3">
-                            {#                        <div class="text-20px" style="margin-top: 20px">#}
-                            Для трудоустройства, прохождения <br>практики, стажировок и целевого набора
-                        </div>
-                        <div class="text-20px mt-2">
-                            {#                        <div class="text-20px" style="margin-top: 15px">#}
-                            Почта: ********,<br>
-                            Телефон: 8 9** *** ** **
+                        <div class="col-6 col-lg-12 h-100">
+                            <div class="text-20px mt-0 mt-lg-2">
+                                {#                        <div class="text-20px" style="margin-top: 15px">#}
+                                Почта: ********,<br>
+                                Телефон: 8 9** *** ** **
+                            </div>
                         </div>
                     </div>
                     <div class="text-20px-blue mt-2">
