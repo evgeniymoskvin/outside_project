@@ -309,7 +309,7 @@
         </div>
 
         <div class="row mt-4 flex-column-reverse flex-lg-row">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-4 ">
+            <div class="d-none d-md-block col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-4 ">
                 <div class="career_img_finder mt-4 mt-4 mt-lg-0">
                     <img style="width: 100%" src="{% static 'outside_app/images/Rectangle 13.png' %}">
                 </div>
@@ -317,21 +317,33 @@
             <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-8 mt-4 mt-lg-0">
                 <div class="row align-content-between h-100">
                     <div class="row align-content-between">
-                        <div class="col-6 col-lg-12">
+                        <div class="col-12">
                             <div class="text-20px-500">
                                 Хотите стать частью нашей команды?
                             </div>
 
-                            <div class="text-20px mt-3">
+                            <div class="d-block d-sm-block d-md-none text-20px mt-3">
                                 {#                        <div class="text-20px" style="margin-top: 20px">#}
                                 Для трудоустройства, прохождения <br>практики, стажировок и целевого набора
                             </div>
                         </div>
-                        <div class="col-6 col-lg-12 h-100">
-                            <div class="text-20px mt-0 mt-lg-2">
-                                {#                        <div class="text-20px" style="margin-top: 15px">#}
-                                Почта: ********,<br>
-                                Телефон: 8 9** *** ** **
+                        <div class="col-12">
+                            <div class="row align-items-center">
+{#                                <div class="col-12 col-md-6 col-lg-12 h-100 align-content-center">#}
+                                    <div class="col-12 col-md-6 col-lg-12 d-none d-md-block">
+                                        <div class="text-20px mt-3">
+                                            {#                        <div class="text-20px" style="margin-top: 20px">#}
+                                            Для трудоустройства, прохождения <br>практики, стажировок и целевого набора
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-12">
+                                        {#                        <div class="text-20px" style="margin-top: 15px">#}
+                                        <div  class="text-20px mt-3 mt-lg-2">
+                                            Почта: ********,<br>
+                                            Телефон: 8 9** *** ** **
+                                        </div>
+{#                                    </div>#}
+                                </div>
                             </div>
                         </div>
                     </div>
