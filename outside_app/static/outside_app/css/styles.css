@@ -911,6 +911,9 @@ body {
 }
 
 .li-arrow::before {
+    /*position: absolute;*/
+    align-self: start;
+    margin-top: 0;
     content: url('../images/Vector 48.svg');
     width: 20px;
     height: 20px;
@@ -932,8 +935,9 @@ body {
     content: url('../images/li_approve.svg');
     width: 17px;
     height: 12px;
+    align-self: start;
     margin-right: 37px;
-    flex-shrink: 0;
+    flex-shrink: 1;
 }
 
 
@@ -1438,6 +1442,7 @@ body {
     margin-top: 0;
     /*margin-bottom: 26px;*/
 }
+
 /*Блоки с картинкой на странице карьеры*/
 
 .career_img_block {
