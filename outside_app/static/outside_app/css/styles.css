@@ -1333,6 +1333,7 @@ body {
 
 /*Слайдер*/
 .item {
+    background-color: #025EA1;
     height: 420px;
     width: 100%;
 }
