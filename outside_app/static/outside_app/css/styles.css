@@ -381,6 +381,10 @@ body {
     /*cursor: pointer;*/
 }
 
+.map_region_cursor:hover {
+    cursor: pointer;
+}
+
 .map_marker {
     scale: 22;
     fill: #025ea1;
