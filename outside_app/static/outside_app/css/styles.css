@@ -206,6 +206,15 @@ body {
 
 }
 
+.carousel__title__glaz {
+    background: rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    padding: 10px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.10);
+
+}
 
 .carousel__title {
     color: #ffffff;
@@ -216,6 +225,11 @@ body {
     margin-bottom: 32px;
 }
 
+.carousel__title_blue_text {
+    color: #025EA1;
+    /*background-color: rgba(51, 51, 51, 0.41);*/
+    /*background: -webkit-linear-gradient(rgba(238, 238, 238, 0.46), rgba(51, 51, 51, 0.5));*/
+}
 
 @media (min-width: 0px) and (max-width: 575px) {
     .main-slider__title {
