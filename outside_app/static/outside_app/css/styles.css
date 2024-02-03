@@ -1459,6 +1459,7 @@ body {
 }
 
 .direction-block__title {
+    margin-left: 13px;
     margin-top: 18px;
     display: flex;
 }
@@ -1469,10 +1470,14 @@ body {
 }
 
 .li-direction {
-    color: #333333;
+    color: #6CACE4;
     margin-top: 10px;
     line-height: 1.25;
     /*margin-bottom: 26px;*/
+}
+
+.li-direction span {
+    color: #333333;
 }
 
 .li-direction:before {
@@ -1506,12 +1511,20 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+
+}
+
+.career_img_block__image__size {
+    display: flex;
+    height: 80px;
+    align-items: end;
 }
 
 .career_img_block__image {
     display: flex;
     width: 100%;
     justify-content: center;
+
 }
 
 .career_img_block__text {
