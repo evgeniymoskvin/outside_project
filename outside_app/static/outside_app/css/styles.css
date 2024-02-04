@@ -424,8 +424,8 @@ body {
 }
 
 #moscow {
-    width: 500px;
-    height: 250px;
+    width: 620px;
+    height: 280px;
     margin-left: 220px;
     margin-top: 250px;
     position: absolute;
@@ -908,8 +908,8 @@ body {
 
 
 .question {
-    margin-top: 100px;
-    margin-left: 50px;
+    margin-top: 140px;
+    margin-left: 6px;
     position: absolute;
     background-repeat: no-repeat;
     height: 400px;
@@ -1038,7 +1038,7 @@ body {
 }
 
 .blue-oval {
-    margin-left: -20px;
+    margin-left: -32px;
     margin-top: -20px;
     position: absolute;
     background-repeat: no-repeat;
@@ -1054,7 +1054,7 @@ body {
 }
 
 .subdivision-block {
-    margin-top: 50px;
+
 }
 
 /*Прямоугольники на главной*/
