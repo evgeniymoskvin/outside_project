@@ -4,7 +4,7 @@
     <div style="display: flex; flex-direction: column; width: 100%; min-height: 580px; justify-content: space-between;">
         <div class="container">
             <div class="row" style="margin-top: 130px;">
-                <div class="col-xxs-12 col-sm-3 col-md-3">
+                <div class="col-xxs-12 col-lg-3">
                     <div class="header_logo">
                         <a href="{% url 'index' %}"><img src="{% static 'outside_app/img/logo_small.png' %}" width="110"
                                                          height="50"></a>
@@ -18,14 +18,16 @@
                     </div>
                 </div>
 
-                <div class="col-xxs-12 col-sm-3 col-md-2" style="z-index: 100;  padding-right: 10px;">
+                <div class="col-xxs-12 col-md-3 col-lg-2 mt-2 mt-md-0" style="z-index: 100;  padding-right: 10px;">
+{#                <div class="col-xxs-12 col-md-2" style="z-index: 100;  padding-right: 10px; margin-top: 17px">#}
                     <div style="display:flex; height: 50px; align-items: center">
                         <div class="text-13pх-400-grey" style="display: flex">
                             Контакты
                         </div>
                     </div>
                     <div>
-                        <div class="text-13pх-400" style="margin-top: 27px">
+                        <div class="text-13pх-400 mt-2 mt-md-2 mt-lg-4">
+{#                        <div class="text-13pх-400" style="margin-top: 27px">#}
                             +7 (926) 349-80-40
                         </div>
                         <div class="text-13pх-400">
@@ -34,10 +36,10 @@
                     </div>
                 </div>
 
-                <div class="col-xxs-12 col-sm-4 col-md-4" style="z-index: 100">
-                    <div style="display:flex; height: 50px; align-items: center">
+                <div class="col-xxs-12 col-md-6  col-lg-4" style="z-index: 100">
+                    <div class="d-none d-md-block" style="display:flex; height: 50px; align-items: center">
                     </div>
-                    <div class="text-13pх-400" style="margin-top: 27px">
+                    <div class="text-13pх-400 mt-4 mt-md-2 mt-lg-4">
                         <div>
                             197183, г. Санкт-Петербург, ул. Дибуновская, д. 55
                         </div>
@@ -46,7 +48,8 @@
                         </div>
                     </div>
 
-                    <div class="text-13pх-400" style="margin-top: 27px">
+{#                    <div class="text-13pх-400" style="margin-top: 27px">#}
+                    <div class="text-13pх-400 mt-4">
                         <div>
                             624200, г. Лесной, Свердловская обл.,<br/>Технический проезд, д 11.
                         </div>
@@ -58,7 +61,7 @@
                         </div>
                     </div>
 
-                    <div class="text-13pх-400" style="margin-top: 27px">
+                    <div class="text-13pх-400 mt-4">
                         <div>
                             456796, г. Озерск, Челябинская обл.,<br/>ул. Октябрьская, д.11
                         </div>
@@ -70,20 +73,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-1 d-none d-md-block"></div>
-                <div class="col-12 col-sm-2 col-md-2" style="z-index: 100">
+                <div class="col-12 col-md-1 d-none d-lg-block"></div>
+                <div class="col-12 col-md-3 col-lg-2" style="z-index: 100">
                     <div style="display:flex; height: 50px; align-items: center">
                         <div class="text-13pх-400-grey" style="display: flex">
                             Меню
                         </div>
                     </div>
-                    <div class="text-13pх-400" style="margin-top: 27px">
+                    <div class="text-13pх-400 mt-2 mt-md-2 mt-lg-4">
                         АО КИС “ИСТОК”<br/>О компании<br/>Направления деятельности<br/>Закупки<br/>Крьера
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container mt-3">
             <div class="line-gray" style="height: 1.5px"></div>
             <div class="footer-company-name">
                 <span class="text-12pх-400-grey">© 2024, АО КИС “ИСТОК”</span>
