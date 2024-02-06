@@ -1,0 +1,41 @@
+{% extends 'outside_app/base.html' %}
+{% load static %}
+
+{% block title %}
+    Новость
+{% endblock %}
+
+{% block content %}
+
+    <div class="container">
+        <div class="row">
+            <h1 class="h1-istok" id="direction">
+                Новости
+            </h1>
+        </div>
+        {#        <div class="line-gray" style="height: 1.5px; margin-top: 10px"></div>#}
+        <div class="line-gray mt-2" style="height: 1.5px"></div>
+
+        <div class="row" style="margin-top: 40px;">
+            <div class="сщд-12">
+                <p>
+                    <img style="max-width: 100%; height: 100%" src="{% static 'outside_app/images/image_16_10.png' %}"
+                         class="float-start">
+                    Текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст
+                    текст
+                    текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст
+                    текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст
+                    текст текст текст
+
+                    Текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст
+                    текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст
+                    текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст
+                    текст текст текст текст текст</p>
+            </div>
+            <div style="text-align: right;" class="col-lg-5">
+
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
