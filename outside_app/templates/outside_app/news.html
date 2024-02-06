@@ -1,0 +1,159 @@
+{% extends 'outside_app/base.html' %}
+{% load static %}
+
+{% block title %}
+    Направления деятельности
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <h1 class="h1-istok">
+                Направления проектирования
+            </h1>
+        </div>
+        <div class="row mt-1">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 mt-4">
+                <div class="direction-block_all">
+                    <a class="rectangle-block__link" href="{% url 'inform_model' %}">
+                        <div class="direction-block__header">
+                            <img src="{% static 'outside_app/img/slideshow/renders/00_4.jpg' %}">
+                        </div>
+                        <div class="direction-block">
+                            <div class="direction-block__title">
+                                <h4 class="text-26px-700-blue">Комплексное проектирование</h4>
+                            </div>
+                            <div class="direction-block__text">
+                                <div class="text-20px">
+                                    <ul>
+                                        <li class="li-direction">
+                                            <span>Комплексное проектирование строительства и реконструкции,
+                                            в том числе объектов отрасли, морских портов, гидротехнических сооружений,
+                                                плавучих АЭС</span>
+
+                                        </li>
+                                        <li class="li-direction">
+                                            <span>
+                                            Выполнение предпроектных и проектно-изыскательских работ по сооружению,
+                                            реконструкции и капитальному ремонту
+                                                </span>
+                                        </li>
+                                        <li class="li-direction" id="hidden_li_direction_item">
+                                            <span>Выполнение функций генерального проектировщика по разработке предпроектной,
+                                                проектной, рабочей и иной</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            {#            <div class="col-1 d-none d-lg-block d-xl-none"></div>#}
+            {#            <div class="col-2 d-none d-xl-block"></div>#}
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 mt-4">
+                <div class="direction-block_all">
+                    <a class="rectangle-block__link" href="{% url 'inform_model' %}">
+                        <div class="direction-block__header">
+                            <img src="{% static 'outside_app/img/slideshow/renders/00_10.jpg' %}">
+                        </div>
+                        <div class="direction-block">
+                            <div class="direction-block__title">
+                                <h4 class="text-26px-700-blue">Инженерные изыскания
+                                </h4>
+                            </div>
+                            <div class="direction-block__text">
+                                <div class="text-20px">
+                                    <ul>
+                                        <li class="li-direction">
+                                            <span>Комплексное проектирование строительства и реконструкции,
+                                            в том числе объектов отрасли, морских портов, гидротехнических сооружений,
+                                                плавучих АЭС</span>
+                                        </li>
+                                        <li class="li-direction">
+                                            <span>Выполнение предпроектных и проектно-изыскательских работ по сооружению,
+                                                реконструкции и капитальному ремонту</span>
+                                        </li>
+                                        <li class="li-direction" id="hidden_li_direction_item">
+                                            <span>Выполнение функций генерального проектировщика по разработке предпроектной,
+                                                проектной, рабочей и иной</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            {#            <div class="col-1 d-none d-lg-block d-xl-none"></div>#}
+            {#            <div class="col-2 d-none d-xl-block"></div>#}
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 mt-4">
+                <div class="direction-block_all">
+                    <a class="rectangle-block__link" href="{% url 'inform_model' %}">
+                        <div class="direction-block__header">
+                            <img src="{% static 'outside_app/img/slideshow/renders/00_2.jpg' %}">
+                        </div>
+                        <div class="direction-block">
+                            <div class="direction-block__title">
+                                <h4 class="text-26px-700-blue">Информационное моделирование</h4>
+                            </div>
+                            <div class="direction-block__text">
+                                <div class="text-20px">
+                                    <ul>
+                                        <li class="li-direction">
+                                            <span>Комплексное проектирование строительства и реконструкции,
+                                            в том числе объектов отрасли, морских портов, гидротехнических сооружений,
+                                                плавучих АЭС</span>
+
+                                        </li>
+                                        <li class="li-direction">
+                                            <span>Выполнение предпроектных и проектно-изыскательских работ по сооружению,
+                                                реконструкции и капитальному ремонту</span>
+                                        </li>
+                                        <li class="li-direction" id="hidden_li_direction_item">
+                                            <span>Выполнение функций генерального проектировщика по разработке предпроектной,
+                                                проектной, рабочей и иной</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 mt-4 h-100">
+                <div class="direction-block_all">
+                    <a class="rectangle-block__link" href="{% url 'inform_model' %}">
+                        <div class="direction-block__header">
+                            <img src="{% static 'outside_app/img/slideshow/renders/00_5.jpg' %}">
+                        </div>
+                        <div class="direction-block">
+                            <div class="direction-block__title">
+                                <h4 class="text-26px-700-blue">Строительство
+                                </h4>
+                            </div>
+                            <div class="direction-block__text">
+                                <div class="text-20px">
+                                    <ul>
+                                        <li class="li-direction">
+                                            <span>Оказание услуг генерального подрядчика по строительству, реконструкции и
+                                                капитальному ремонту</span>
+                                        </li>
+                                        <li class="li-direction">
+                                            <span>Выполнение строительных, монтажных и пусконаладочных работ, работ по
+                                                реконструкции и капитальному ремонту</span>
+                                        </li>
+                                        <li class="li-direction">
+                                            <span>Поставка оборудования</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}

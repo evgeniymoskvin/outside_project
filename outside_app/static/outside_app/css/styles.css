@@ -327,6 +327,7 @@ body {
 }
 
 .dropdown-content {
+    padding-left: 0;
     display: none;
     position: absolute;
     background-color: white;
@@ -338,7 +339,7 @@ body {
 @media (max-width: 991px) {
     .navigation-list-item {
         background: white;
-        padding-left: 40px;
+        /*padding-left: 40px;*/
         min-height: 40px;
     }
 
@@ -637,6 +638,11 @@ body {
     .text-28px-500 {
         font-size: 24px;
     }
+
+    .text-28px-700 {
+        font-size: 20px;
+    }
+
 }
 
 .text-24px-700 {
@@ -715,7 +721,7 @@ body {
 .text-20px-blue__link {
     font-size: 20px;
     font-family: "Golos_400", serif;
-    color: #025EA1;
+    color: #6CACE4;
     word-wrap: break-word;
     text-decoration: none;
 }
@@ -748,6 +754,10 @@ body {
     }
 
     .text-20px-blue-500 {
+        font-size: 16px;
+    }
+
+    .text-20px-blue__link {
         font-size: 16px;
     }
 }
