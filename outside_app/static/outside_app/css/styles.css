@@ -704,6 +704,14 @@ body {
     word-wrap: break-word
 }
 
+.text-20px-blue_light {
+    font-size: 20px;
+    font-family: "Golos_400", serif;
+    color: #6CACE4;
+    word-wrap: break-word
+}
+
+
 .text-20px-blue__link {
     font-size: 20px;
     font-family: "Golos_400", serif;
