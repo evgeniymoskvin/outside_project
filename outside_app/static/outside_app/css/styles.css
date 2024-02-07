@@ -1513,6 +1513,7 @@ body {
 @media (min-width: 0px) and (max-width: 575px) {
 
     .direction-block {
+        min-width: 100%;
         min-height: 50px;
         overflow: hidden;
     }
