@@ -1,0 +1,89 @@
+{% extends 'outside_app/base.html' %}
+{% load static %}
+
+{% block title %}
+    Направления деятельности
+{% endblock %}
+
+{% block content %}
+    <div class="content-napr-width" style="height: 320px">
+        <div class="item_napr">
+            <img src="{% static 'outside_app/img/slideshow/renders/00_2.jpg' %}">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <h1 class="h1-istok" id="direction">
+                Инженерные изыскания
+            </h1>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mt-4">
+                <div class="text-24px-400">АО КИС «ИСТОК» занимается инженерными изысканиями, комплексным
+                    инженерно-техническим обследованиями конструкций, зданий и сооружений.
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-4">
+            <div class="text-24px-400-blue">Какие инженерные изыскания производит компания?
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-4 mt-2 mt-md-4">
+                <ul style="padding-left: 0">
+                    <div class="text-20px">
+                        <li class="li-approve">
+                            Инженерно-геологические
+                        </li>
+                        <li class="li-approve">
+                            Инженерно-экологические
+                        </li>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-4 mt-2 mt-lg-4">
+                <ul style="padding-left: 0">
+                    <div class="text-20px">
+                        <li class="li-approve">
+                            Гидрометеорологические
+                        </li>
+                        <li class="li-approve">
+                            Радиационно-экологические
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <ul style="padding-left: 0">
+            <div class="row">
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-10 mt-4">
+                    <ul style="padding-left: 0">
+                        <div class="text-20px">
+                            <li class="li-arrow">
+                                Для проведения инженерно-изыскательских работ компания обладает буровыми установками
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-10 mt-4">
+                    <div class="text-20px">
+                        <li class="li-arrow">
+                            Для проведения аэрофотосъемки рельефа местности компания использует промышленные
+                            квадрокоптеры, полученные с квадрокоптеров данные используются для создания цифровой
+                            модели.
+                        </li>
+                    </div>
+
+                </div>
+
+            </div>
+        </ul>
+    </div>
+
+{% endblock %}

@@ -63,8 +63,23 @@ class InformModel(View):
     def get(self, request):
         return render(request, 'outside_app/inform_model.html')
 
+class KomplView(View):
+    @method_decorator(login_required(login_url='login'))
+    def get(self, request):
+        return render(request, 'outside_app/kompl_proektir.html')
+
 
 class NewsOneView(View):
     @method_decorator(login_required(login_url='login'))
     def get(self, request):
         return render(request, 'outside_app/news_one.html')
+
+class StroitelView(View):
+    @method_decorator(login_required(login_url='login'))
+    def get(self, request):
+        return render(request, 'outside_app/stroitel.html')
+
+class Izusk(View):
+    @method_decorator(login_required(login_url='login'))
+    def get(self, request):
+        return render(request, 'outside_app/inzh_izusk.html')

@@ -13,5 +13,8 @@ urlpatterns = [
     path('map2', views.MapView2.as_view(), name='map2'),
     path('inform_model', views.InformModel.as_view(), name='inform_model'),
     path('news_one', views.NewsOneView.as_view(), name='news_one'),
+    path('kompl', views.KomplView.as_view(), name='kompl'),
+    path('stroitel', views.StroitelView.as_view(), name='stroitel'),
+    path('inzh', views.Izusk.as_view(), name='izusk'),
 
 ]
