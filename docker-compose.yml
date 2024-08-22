@@ -1,11 +1,12 @@
 version: '3'
 
 services:
-  web:
-    build: .
-    command: python /usr/src/start_page_app/manage.py runserver 0.0.0.0:8000
+  kks_codes:
+    restart: always
+    build: ./
     volumes:
-      - .:/usr/src/start_page_app
+      - ./:/app
+    command: python manage.py runserver 0.0.0.0:8002
     ports:
-      - 1235:8000
+      - "8002:8002"
 

@@ -1,17 +1,18 @@
-FROM python:3.11
+FROM python:3.9.6
+
+SHELL ["/bin/bash", "-c"]
 
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
-RUN apt-get update \
-	&& apt-get install -y --no-install-recommends \
-		postgresql-client \
-	&& rm -rf /var/lib/apt/lists/*
+RUN pip install --upgrade pip
+RUN apt update && apt -qy install gcc redis poppler-utils
 
-WORKDIR /usr/src/start_page_app
-COPY requirements.txt ./
+WORKDIR /app
+
+#RUN mkdir /app/static && mkdir /app/media
+COPY ./requirements.txt ./requirements.txt
 RUN pip install -r requirements.txt
-COPY . /usr/src/start_page_app
 
-EXPOSE 8000
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+COPY . /app
+

@@ -25,8 +25,8 @@ SECRET_KEY = 'django-insecure-d!m-&^b7zt0vjvvf(9v$vp#=b8l*6g)%dwp&x$6v0t7+d*z102
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = ['127.0.0.1', '176.119.159.181', 'localhost']
-
+ALLOWED_HOSTS = ['127.0.0.1', '176.119.159.181', 'localhost', '45.132.18.6']
+CSRF_TRUSTED_ORIGINS = ['http://45.132.18.6']
 
 # Application definition
 
@@ -102,6 +102,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+SESSION_COOKIE_DOMAIN = '45.132.18.6'
+SESSION_COOKIE_NAME = 'testsessionidweb'
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
