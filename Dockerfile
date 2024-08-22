@@ -1,4 +1,4 @@
-FROM python:3.9.6
+FROM python:3.9-alpine3.19
 
 SHELL ["/bin/bash", "-c"]
 
